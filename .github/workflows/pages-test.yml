@@ -1,0 +1,45 @@
+name: Deploy AI Risk TEST release
+on:
+  push:
+    branches: [test]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/test'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - name: Package verified static release
+        run: |
+          test -f .airisk-release.json
+          test ! -f CNAME
+          test -f test-environment.css
+          node -e "if(require('./supabase-config.json').environment!=='test'||require('./.airisk-release.json').environment!=='test')process.exit(1)"
+          test -f index.html
+          test -f admin/weekly.html
+          test ! -d supabase
+          test ! -f package.json
+          mkdir _site
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='_site/' --exclude='README.md' --exclude='.airisk-release.json' ./ _site/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,37 @@
+{
+  "siteName": "Global AI Risk & Policy",
+  "ko": {
+    "title": "Global AI Risk & Policy | AI 위험·정책 Gap 대응 글로벌 커뮤니티",
+    "description": "세계 각국의 AI 사건과 정책을 살펴보고, 대응의 빈틈과 함께 조사할 질문을 찾아보세요. 기술·문화·정책의 근거를 연결하며 글로벌 커뮤니티 연대를 준비합니다.",
+    "heading": "AI 위험에 대응하는 글로벌 연대, 각국의 커뮤니티에서 시작합니다.",
+    "intro": "기술적 대응과 문화적 이해, 정책적 준비를 함께 발전시키기 위해 각국의 대표 커뮤니티를 연결하고자 합니다. 서로의 경험과 근거를 나누며, 국경을 넘어 함께 대응할 길을 찾습니다.",
+    "locale": "ko_KR"
+  },
+  "en": {
+    "title": "Global AI Risk & Policy | Bridging Gaps Together",
+    "description": "Explore AI incidents and policies worldwide. Connect evidence, identify questions about policy gaps, and help build a global community for shared responses.",
+    "heading": "A global response to AI risk starts with communities in every country.",
+    "intro": "We aim to connect leading communities in each country to develop technical responses, cultural understanding and policy readiness for AI risk. By sharing evidence and lived experience, we seek paths to collective action across borders.",
+    "locale": "en_US"
+  },
+  "pages": {
+    "community": {
+      "ko": {
+        "title": "커뮤니티 소개 · AI Risk & Policy",
+        "description": "AI의 사회적 영향과 정책을 함께 살피는 커뮤니티를 준비하고 있습니다. 커뮤니티 소개와 운영 정보를 확인하세요.",
+        "locale": "ko_KR"
+      },
+      "en": {
+        "title": "About the community · AI Risk & Policy",
+        "description": "We are preparing a community to explore AI's social impact and policy. Learn about the community, its organisers and contact details.",
+        "locale": "en_US"
+      }
+    }
+  },
+  "publication": {
+    "primaryLanguage": "en",
+    "englishStatus": "English by default. Korean toggle available only when the visitor country is detected as KR.",
+    "canonicalUrl": "https://www.aipolicy.world/",
+    "note": "One canonical URL; English is the default and Korean remains available to visitors detected in Korea. No alternate-language URLs are published."
+  }
+}
