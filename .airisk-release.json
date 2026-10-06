@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-06T03-23-31-708Z-87414b",
+  "id": "2026-10-06T03-53-11-332Z-d74cad",
   "environment": "test",
   "verified": true,
   "obfuscator": "5.8.1",
@@ -30,11 +30,11 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "181cba654e14fd70a5b6951f9f43f82253f2b7aeff1ae1536e6aee073b7336c9"
+      "sha256": "88a24958f81e10c258befabd973b1cce99243646ebc9436c574a3631e109e91d"
     },
     {
       "path": "admin/login.html",
-      "sha256": "a252461e6751b15447531364930c284b0e180ea2d62cf17ca781e8559b4c4b09"
+      "sha256": "5f0eae1b79297b8f2ec605fc3650a12a3280f9755f79fba2ea7d97841c524604"
     },
     {
       "path": "admin/login.js",
@@ -42,11 +42,11 @@
     },
     {
       "path": "admin/participants.js",
-      "sha256": "93695af32f11e8c4053500de3c033504596f3d0e47b872600b697670aeaa0335"
+      "sha256": "4adcdc1adf0ae0dd66ac353dfc85a06ecef146560b7fb50f3ac7ae3505245d7e"
     },
     {
       "path": "admin/style.css",
-      "sha256": "78043eff61916444e17569d2d1c076aa713e86abb19fddfd9fdca2cc4ecd462e"
+      "sha256": "6fd1d547b26e57751e2ed9340525147a7dd2b66e7366071ddf8ffd2bfc5ca1b9"
     },
     {
       "path": "admin/supabase-client.js",
@@ -58,7 +58,7 @@
     },
     {
       "path": "admin/weekly.html",
-      "sha256": "6234567b61314b9e5f25a89b0759bf1ef736f94816a1cac38933e5fe483e591d"
+      "sha256": "c32deabe4fea52df92103f13389824066f9d27bd6913b50a1f1a83402eb9bf46"
     },
     {
       "path": "admin/weekly.js",

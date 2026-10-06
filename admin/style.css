@@ -17,3 +17,8 @@ input,select,textarea{min-height:var(--ds-action-height)}.primary{min-height:var
 .person-editor{margin-top:var(--ds-space-6)}.person-editor h3{margin-top:0;font-size:var(--ds-type-card)}.person-check{display:flex;align-items:center;gap:var(--ds-space-3);min-height:var(--ds-target);margin-top:var(--ds-space-3)}.person-check input{width:var(--ds-space-6);min-height:var(--ds-space-6);height:var(--ds-space-6);accent-color:var(--ds-action)}#people-status{color:var(--ds-warning);white-space:pre-line}
 
 .person-editor .fields>label{align-content:start}
+.person-editor .fields{gap:var(--ds-space-4)}
+.person-editor .fields>label{gap:var(--ds-space-2)}
+.person-editor .fields input,.person-editor .fields textarea{padding:var(--ds-space-3);line-height:var(--ds-line-control)}
+.person-editor .fields input{height:var(--ds-action-height)}
+.person-editor .fields textarea{height:var(--work-textarea-height);min-height:var(--work-textarea-height);resize:vertical}
