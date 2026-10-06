@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-06T03-53-11-332Z-d74cad",
+  "id": "2026-10-06T04-18-21-695Z-16ef73",
   "environment": "test",
   "verified": true,
   "obfuscator": "5.8.1",
@@ -30,11 +30,11 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "88a24958f81e10c258befabd973b1cce99243646ebc9436c574a3631e109e91d"
+      "sha256": "24539a46d354c98dd11e1ca38e470d41a5d50a9a7abddba6c53a4c75231e1111"
     },
     {
       "path": "admin/login.html",
-      "sha256": "5f0eae1b79297b8f2ec605fc3650a12a3280f9755f79fba2ea7d97841c524604"
+      "sha256": "e3e013f165eda14e2ad09f88af66e657f49e8c6e8abc90b15c8e291ba3bf229c"
     },
     {
       "path": "admin/login.js",
@@ -42,11 +42,11 @@
     },
     {
       "path": "admin/participants.js",
-      "sha256": "4adcdc1adf0ae0dd66ac353dfc85a06ecef146560b7fb50f3ac7ae3505245d7e"
+      "sha256": "1e5f789f76b7f8fd0b552a7d995e27e4a83246b20d135eca56cbc6ed9c495c3e"
     },
     {
       "path": "admin/style.css",
-      "sha256": "6fd1d547b26e57751e2ed9340525147a7dd2b66e7366071ddf8ffd2bfc5ca1b9"
+      "sha256": "910268aad4b2e65f7b3ea2ea0617dc748cada302ba27641f067c713c65e29a60"
     },
     {
       "path": "admin/supabase-client.js",
@@ -58,7 +58,7 @@
     },
     {
       "path": "admin/weekly.html",
-      "sha256": "c32deabe4fea52df92103f13389824066f9d27bd6913b50a1f1a83402eb9bf46"
+      "sha256": "9def3343ee91c0ad473e2f8815fa8587d56d72447c6745fd064234bf05720bd6"
     },
     {
       "path": "admin/weekly.js",
@@ -114,11 +114,11 @@
     },
     {
       "path": "community.css",
-      "sha256": "d16987ab54d8fdf50a9167db433c1b75b8cec4ab1f462be6d119cfc5f3b586f1"
+      "sha256": "1aff1075451aed862f682d1829fd88d51ac775ce1c9d19fc79ae8ad873f62f58"
     },
     {
       "path": "community.html",
-      "sha256": "ffa668c1ecb636ea49159f36b8757414ec2d20985d3d9c7c07a26482f80505ce"
+      "sha256": "8420a389767d0659e93c0e4d8a13bc0773396a8a653b8684b7d027817a9b3c2b"
     },
     {
       "path": "design-system-page.css",
@@ -158,7 +158,7 @@
     },
     {
       "path": "i18n-en.json",
-      "sha256": "f89bfb0237fda3bfbab764418524c89831c8acc0436032b96dcb934e60c0af34"
+      "sha256": "d70ef841b0401665455feff08a65a1a920f6b74d55c275906dcb372499b81144"
     },
     {
       "path": "i18n.css",
@@ -170,7 +170,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "bffb7dbc124ef955464a2f90e6a5bc3584665b3f6688aab406e5629e1e519748"
+      "sha256": "d911996619842283f4543a723fa33debade3c0d9b2be7c9f4ce4c85bbd30bbe8"
     },
     {
       "path": "journey.css",
@@ -198,7 +198,7 @@
     },
     {
       "path": "participants.js",
-      "sha256": "0529356cdb1e4f39d736af2faf750421c2133970edd6a017b429096ffd7247e9"
+      "sha256": "6a9d296f835da4b43f6ebd44d5d90c57ee86152772026063982ec0f17d20d6f4"
     },
     {
       "path": "policy.css",
