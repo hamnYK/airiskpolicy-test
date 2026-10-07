@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-07T05-59-31-162Z-f06457",
+  "id": "2026-10-07T06-04-16-874Z-3249d1",
   "environment": "test",
   "verified": true,
   "tests": "passed",
@@ -151,7 +151,7 @@
     },
     {
       "path": "gap-analyzer.js",
-      "sha256": "4cb9612837ff836b4a1fbd47cdbe73b9fa4bb2eff185a0fcd7c10f8aef5f82b3"
+      "sha256": "0718201bebd1ada25e6c2781b21c11c9e970b3d154ae3e5866b44fe63793d1f2"
     },
     {
       "path": "gap-engine.js",
@@ -171,7 +171,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "e77823ea9befa916828d6acd782fddfeb263daac8df0ee89eb6f817bdbe7df45"
+      "sha256": "ab9154eda161d4000f21fafee979ffca9953eefdc9255ecf4c9ce47d6287fdb5"
     },
     {
       "path": "journey.css",
@@ -215,7 +215,7 @@
     },
     {
       "path": "response-journey.js",
-      "sha256": "a20326c787a9f68632de3866d6b40a9d301e79d76ecb12c3925cf4884879e82a"
+      "sha256": "0fd5bbf6ae3950bb05a4c0c2264ecb185e10985b9abf5a4adfb216e48dc3a2c6"
     },
     {
       "path": "robots.txt",
