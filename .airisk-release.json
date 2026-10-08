@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-08T14-30-08-169Z-e97d2c",
+  "id": "2026-10-08T15-50-00-232Z-481416",
   "environment": "test",
   "verified": true,
   "tests": "passed",
@@ -143,11 +143,11 @@
     },
     {
       "path": "community.css",
-      "sha256": "1aff1075451aed862f682d1829fd88d51ac775ce1c9d19fc79ae8ad873f62f58"
+      "sha256": "df7be71d9fc9c13034129d14e8a4c57e11f3b97f2112d8d48f519caae0a908ef"
     },
     {
       "path": "community.html",
-      "sha256": "2c723983d52fb349f1255ff30b1c4260774ee42de634356abfbb16cc82a887a0"
+      "sha256": "512c1603f719237c42fb389bf1672885c20484178bb9514545f10fb25d788e88"
     },
     {
       "path": "design-system-page.css",
@@ -207,7 +207,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "1f82f2171a93d39bffc3ea27f2b3c91def5b5b47b220efae55e69f7480d1730a"
+      "sha256": "b2fb9a6357ff582393c3c8b0207164fc357101477322b35aa86dae3d165bca0a"
     },
     {
       "path": "journey.css",
