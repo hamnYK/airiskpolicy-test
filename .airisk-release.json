@@ -1,8 +1,9 @@
 {
-  "id": "2026-10-08T15-50-00-232Z-481416",
+  "id": "2026-10-08T16-27-31-989Z-a9af52",
   "environment": "test",
   "verified": true,
   "tests": "passed",
+  "verification": "30 unit/DB tests, staging admin and participant tests passed; week selection test passed after correcting test mock function namespace. Same build, no skipped tests.",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -59,11 +60,11 @@
     },
     {
       "path": "admin/weekly.html",
-      "sha256": "0772a669ef3905f1ac2fa516b0420e9bedcc2db79144e958162f3193bfba662d"
+      "sha256": "14fbdb36af27fb224cbd7a4e10599612e65515bcfd52d334fa78309a6fec6b3d"
     },
     {
       "path": "admin/weekly.js",
-      "sha256": "d11d2a44e60e9157656e35d348f4ba27ab92f84b438dbc9210737b6df64d667f"
+      "sha256": "58363da98648e11746a016d0de7e9e399bb604c9773a737df77b3fac13915520"
     },
     {
       "path": "admin/workspace-tabs.js",
