@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-09T14-34-43-929Z-f6768b",
+  "id": "2026-10-09T15-01-56-467Z-921bcc",
   "environment": "test",
   "verified": true,
   "tests": "passed",
@@ -83,7 +83,7 @@
     },
     {
       "path": "assets/audience-ontologies/review.json",
-      "sha256": "c4c35359ec5ff1bf14fe8a8383f105721327de258707923e3e60fb2452733392"
+      "sha256": "28c7992432a95615d27df080d1ff8fc7989bcc2cd6b89aff5a85133aa1b20838"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-report.nq",
@@ -91,19 +91,19 @@
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-0.jsonld",
-      "sha256": "5d9dcb9126d52697e6efd0491e5f8c78e825bea584d105529e0df15b142fcf24"
+      "sha256": "bf564e175a2d5101a088fb140c69a4c9bb2f45c45f5a1eab539f301755b884b6"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-1.jsonld",
-      "sha256": "eef492dc389a93d05f2a85db257851e90e92ffb57c132869fdac054350128776"
+      "sha256": "ba36dfd06939a3601efd9fbf0f0b9871f44fb7fbcf4ead7f52160f813181c216"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-2.jsonld",
-      "sha256": "813d97c0d3256a46ed539662130f88c8dadee27e2381bc3436d4acf783976993"
+      "sha256": "9ab92a9ce85cb7d05eb9dc26d47b745ce2206df53628d4c4bb4f518352ea32cd"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-3.jsonld",
-      "sha256": "8135cd2d20188a7b8c7b6947a342a92101e8fbbce133266b1631d006d40a45e9"
+      "sha256": "b7b470c4cc709e20237cf7331434b882d8cdcdbff05af9ad94c5461db6be7dac"
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-report.nq",
@@ -111,31 +111,31 @@
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-0.jsonld",
-      "sha256": "13d13cce4138f896c335993b0431fa6b5f1217317cf39cfb3a1fafe53019723e"
+      "sha256": "b66ea067e58f8bc79f8b645b6af5e63530061ca175713d7ee0c3b2b14cab5bbb"
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-1.jsonld",
-      "sha256": "98d09746c59bb2b15d41be606815681b14586738e4e6329916bdd8e60578a3c5"
+      "sha256": "a5a93b1b64be8a3ee53295bf58b86bae325a04b92e44a6d729388090698a0321"
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-2.jsonld",
-      "sha256": "31cfab463119ec69da6a4de895e2cf686417c9c99991f9d29cb6904ced65359d"
+      "sha256": "b231d887df66dae00105f314b58fe1d4012160170834b636a90ba18c291008b1"
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-3.jsonld",
-      "sha256": "265c82d79bcf237a5d61460eb121aeb9110c39f67efc7bbf2065d4dbf3d02a62"
+      "sha256": "6b8e16a5b2db7ae3888486885a8bbf667b3cc4d26ad1db90f2ffe69cf75d9d40"
     },
     {
       "path": "assets/audience-ontologies/w3c/shapes.ttl",
-      "sha256": "873e36d47495e6de30e47c91bc7a694797f792333633d8e264cd4e05c23f5b52"
+      "sha256": "63583a8e9e88125dd61a574e9c41dfa81399e58657995d856883cdfe170bcfc7"
     },
     {
       "path": "assets/audience-ontologies/w3c/validation.json",
-      "sha256": "9e11c6a9265f4a471879c75fb8c1f5ce90fe45757a881260da963628d26ba096"
+      "sha256": "d138bfce8fa5ce1d750aaa38f98e3fc474fe4e29a14b8eff01abc139b5ec041f"
     },
     {
       "path": "assets/audience-ontologies/w3c/vocabulary.ttl",
-      "sha256": "0fda838fd0dbb63bd148021fd678afb0c05fce00a3cf963d288b042b3eee6670"
+      "sha256": "22a854a209cded1bda6547ddf0aaa3eab7c98b915b6d501dbf08b6d8a7e1d63c"
     },
     {
       "path": "assets/countries.geojson",
@@ -207,11 +207,11 @@
     },
     {
       "path": "audience-ontology.html",
-      "sha256": "6eedb906108ae47719e55b18eb45600921f28dffe422ff5d245d222b218f45dd"
+      "sha256": "997a79b2b0963a05403f07715846ffd003c5e156e19d45bd3fb78b4fb8ec6db7"
     },
     {
       "path": "audience-ontology.js",
-      "sha256": "90290d713ca2d431ac41ee615cff3a6be27e4ab36616bbfcc1f5f3c2bb59c9ab"
+      "sha256": "bc9384fbaf359d91dd5f0d30e5d54bd8a29bba961b1df53b8e8ed8878fc96c7f"
     },
     {
       "path": "community.css",

@@ -41,7 +41,7 @@ air:ExportShape a sh:NodeShape ; sh:targetClass air:Export ;
  sh:property [ sh:path air:unknowns ; sh:minCount 1 ] .
 
 air:TypedRelationShape a sh:NodeShape ; sh:targetClass air:RelationAssertion ;
- sh:property [ sh:path rdf:type ; sh:qualifiedMinCount 1 ; sh:qualifiedMaxCount 1 ; sh:qualifiedValueShape [ sh:in ( air:Relation_classifiedAs air:Relation_hasContext air:Relation_broader air:Relation_suggestsControl air:Relation_investigates air:Relation_asks air:Relation_requiresEvidence air:Relation_supportsPrinciple air:Relation_mayCause air:Relation_mayAffect air:Relation_investigateControl ) ] ] .
+ sh:property [ sh:path rdf:type ; sh:qualifiedMinCount 1 ; sh:qualifiedMaxCount 1 ; sh:qualifiedValueShape [ sh:in ( air:Relation_classifiedAs air:Relation_hasContext air:Relation_broader air:Relation_suggestsControl air:Relation_investigates air:Relation_asks air:Relation_requiresEvidence air:Relation_startsReview air:Relation_suggestsScenario air:Relation_suggestsContextControl air:Relation_supportsPrinciple air:Relation_mayCause air:Relation_mayAffect air:Relation_investigateControl ) ] ] .
 
 air:classifiedAsShape a sh:NodeShape ; sh:targetClass air:Relation_classifiedAs ;
  sh:property [ sh:path air:relationType ; sh:hasValue "classifiedAs" ; sh:maxCount 1 ] ;
@@ -118,4 +118,25 @@ air:investigateControlShape a sh:NodeShape ; sh:targetClass air:Relation_investi
  sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
  sh:property [ sh:path rdf:predicate ; sh:hasValue air:investigateControl ] ;
  sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:RiskScenario ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:ControlObjective ] .
+
+air:startsReviewShape a sh:NodeShape ; sh:targetClass air:Relation_startsReview ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "startsReview" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "requirement" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:startsReview ] ;
+ sh:property [ sh:path rdf:subject ; sh:class air:RiskObservation ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:Criterion ] .
+
+air:suggestsScenarioShape a sh:NodeShape ; sh:targetClass air:Relation_suggestsScenario ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "suggestsScenario" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:suggestsScenario ] ;
+ sh:property [ sh:path rdf:subject ; sh:class air:RiskObservation ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:RiskScenario ] .
+
+air:suggestsContextControlShape a sh:NodeShape ; sh:targetClass air:Relation_suggestsContextControl ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "suggestsContextControl" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:suggestsContextControl ] ;
+ sh:property [ sh:path rdf:subject ; sh:class air:RiskObservation ] ;
  sh:property [ sh:path rdf:object ; sh:class air:ControlObjective ] .

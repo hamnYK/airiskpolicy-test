@@ -60,3 +60,9 @@ air:Relation_supportsPrinciple a rdfs:Class ; rdfs:label "Qualified supportsPrin
 air:Relation_mayCause a rdfs:Class ; rdfs:label "Qualified mayCause assertion"@en .
 air:Relation_mayAffect a rdfs:Class ; rdfs:label "Qualified mayAffect assertion"@en .
 air:Relation_investigateControl a rdfs:Class ; rdfs:label "Qualified investigateControl assertion"@en .
+air:startsReview a rdf:Property ; rdfs:comment "Editorial investigation routing; does not establish a scenario or duty."@en .
+air:Relation_startsReview a rdfs:Class ; rdfs:label "Qualified startsReview assertion"@en .
+air:suggestsScenario a rdf:Property ; rdfs:comment "Editorial investigation routing; does not establish a scenario or duty."@en .
+air:Relation_suggestsScenario a rdfs:Class ; rdfs:label "Qualified suggestsScenario assertion"@en .
+air:suggestsContextControl a rdf:Property ; rdfs:comment "Editorial investigation routing; does not establish a scenario or duty."@en .
+air:Relation_suggestsContextControl a rdfs:Class ; rdfs:label "Qualified suggestsContextControl assertion"@en .
