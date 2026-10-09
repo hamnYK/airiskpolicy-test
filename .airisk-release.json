@@ -1,9 +1,8 @@
 {
-  "id": "2026-10-08T16-27-31-989Z-a9af52",
+  "id": "2026-10-09T12-33-23-003Z-315090",
   "environment": "test",
   "verified": true,
   "tests": "passed",
-  "verification": "30 unit/DB tests, staging admin and participant tests passed; week selection test passed after correcting test mock function namespace. Same build, no skipped tests.",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -32,11 +31,11 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "80b7930c989965be5ab22c0e45d57dfd1284230a91f78bb3b677c0a1cd1d0005"
+      "sha256": "c0d2eb0003df13cde0d4e619556dc5a6251e157e2f050987e09d1eacbe719cb0"
     },
     {
       "path": "admin/login.html",
-      "sha256": "b45d2cd0c58e57e749e160314ff013ccca7cf256aae64f3a6e8a1e3519b4c762"
+      "sha256": "5bd4f71af1ad5868b13a8122c04f4037eba3a2e9658fa47556e5444f8e1c233e"
     },
     {
       "path": "admin/login.js",
@@ -60,7 +59,7 @@
     },
     {
       "path": "admin/weekly.html",
-      "sha256": "14fbdb36af27fb224cbd7a4e10599612e65515bcfd52d334fa78309a6fec6b3d"
+      "sha256": "423900ac04bdf18b8d5ac7205f58dc98eb1934f100232b5fc927b4e2379a50fe"
     },
     {
       "path": "admin/weekly.js",
@@ -80,7 +79,11 @@
     },
     {
       "path": "app.js",
-      "sha256": "dcb5b3aa2d3ea789cc228641a0616a93c4649b9d89eb741ef40aaef61648c5bf"
+      "sha256": "c32348577fae5a8f8f234b5e6dda767b0f189a955dd7d02baf148fb00ee1b212"
+    },
+    {
+      "path": "assets/audience-ontologies/review.json",
+      "sha256": "c7944445830d1378015799ab7c42e98d8f65e1a6734d385805648ada2acae00f"
     },
     {
       "path": "assets/countries.geojson",
@@ -143,12 +146,28 @@
       "sha256": "8d8a237b914da1d521d08336e670c698d380c980c5317636c5d4ef4e988b2a45"
     },
     {
+      "path": "audience-model.js",
+      "sha256": "a739a1eb8faa8d2214e6716ef88157544e794a3fbe0f4e50dbe119bb6cff7364"
+    },
+    {
+      "path": "audience-ontology.css",
+      "sha256": "3e716edd7d9b7a3b69cc1a4d7e98f8c3673fe381ca185fcd4d57deb4053dd5da"
+    },
+    {
+      "path": "audience-ontology.html",
+      "sha256": "8535eb964fb580d4eaa1b5cd9acd11adab5c944fbaf0920fe69b7797b8b683f3"
+    },
+    {
+      "path": "audience-ontology.js",
+      "sha256": "431f1bab17d7775b194d9e99f03ccba9e753eb31b2ed8d349b1f2bdac3204a82"
+    },
+    {
       "path": "community.css",
       "sha256": "df7be71d9fc9c13034129d14e8a4c57e11f3b97f2112d8d48f519caae0a908ef"
     },
     {
       "path": "community.html",
-      "sha256": "512c1603f719237c42fb389bf1672885c20484178bb9514545f10fb25d788e88"
+      "sha256": "21a8285f97a364be28cfbd1709449f0eeb7472ce37caeab61d52bb6bd149fb26"
     },
     {
       "path": "design-system-page.css",
@@ -164,7 +183,7 @@
     },
     {
       "path": "design-system.html",
-      "sha256": "847d4be9e1769ee79c8daa46be38c7b22b7d31d99553c522d5cb4746351bfb00"
+      "sha256": "ee4f976adec9b6571305777258f72d1aaf19da06f9573e80616172f51a7eda62"
     },
     {
       "path": "explorer-layout.css",
@@ -208,7 +227,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "b2fb9a6357ff582393c3c8b0207164fc357101477322b35aa86dae3d165bca0a"
+      "sha256": "7b77234b1e6a4c3a6b44245033cf7a045af3eb6937f202baa2d27c1ee69ca059"
     },
     {
       "path": "journey.css",
@@ -236,7 +255,7 @@
     },
     {
       "path": "participants.js",
-      "sha256": "6a9d296f835da4b43f6ebd44d5d90c57ee86152772026063982ec0f17d20d6f4"
+      "sha256": "3f41ddfd13926c4e5f9dfb466418435a1756eeecf76bb9daa788dc899aa6d3da"
     },
     {
       "path": "policy.css",
@@ -1672,7 +1691,7 @@
     },
     {
       "path": "weekly-briefing.js",
-      "sha256": "9700e466b397aa8894d580be20aacc4eac8e59916cd2a94d0a7c6a584ff300f1"
+      "sha256": "a2e702f737afcd1acdc43157bcab861f6b731e3bbfd82611b2615ce872c346bc"
     },
     {
       "path": "weekly-model.js",
