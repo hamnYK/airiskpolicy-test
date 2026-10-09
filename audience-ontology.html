@@ -7,9 +7,9 @@
 <title>고객군별 온톨로지 검토 · AI Risk &amp; Policy TEST</title>
 <link rel="stylesheet" href="typography.css?v=75dfc57c74ca">
 <link rel="stylesheet" href="design-system.css?v=30c3b8f70cc8">
-<link rel="stylesheet" href="audience-ontology.css?v=2191c19c02c6">
+<link rel="stylesheet" href="audience-ontology.css?v=a5d224a489d8">
 <script defer src="audience-model.js?v=a739a1eb8faa"></script>
-<script defer src="audience-ontology.js?v=803904dc3468"></script>
+<script defer src="audience-ontology.js?v=802b9286f721"></script>
 <meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="test-environment.css?v=90b4c5622796"></head>
 <body data-catalog-version="c7944445830d"><aside class="test-environment-banner" data-no-translate aria-label="테스트 환경">TEST · 테스트 환경 — 변경사항은 테스트 데이터에만 반영됩니다. <a class="ds-link" href="audience-ontology.html">고객군별 온톨로지 검토</a></aside>
 <header class="lab-header"><a href="index.html" class="ds-link">AI Risk &amp; Policy</a><a href="index.html" class="ds-link">테스트 사이트로 돌아가기</a></header>
@@ -20,7 +20,7 @@
     <p class="lab-lead">고객군을 선택해 분석 기준과 필요한 증빙을 살펴보고, 가상 사례로 판정 과정을 확인하세요.</p>
     <p class="lab-note">전문가 검토 전 초안입니다. 실제 국가의 정책 공백이나 기업의 준수 상태를 판정한 결과가 아닙니다. 이 화면의 검증은 가상 자료로 브라우저 안에서 실행됩니다.</p>
   </section>
-  <p id="load-status" role="status">온톨로지를 불러오는 중…</p>
+  <p id="load-status" class="ds-status" data-state="loading" role="status">온톨로지를 불러오는 중…</p>
   <button id="retry" class="ds-secondary" hidden>다시 불러오기</button>
   <div id="workspace" hidden>
     <fieldset class="audience-picker"><legend>고객군 선택</legend>
@@ -36,26 +36,26 @@
       <section aria-labelledby="criteria-title">
         <div class="section-heading"><h2 id="criteria-title">분석 기준과 증빙</h2><p id="criteria-count" role="status"></p></div>
         <div class="criteria-filters">
-          <label>위험 시나리오<select id="scenario"><option value="">전체 시나리오</option></select></label>
-          <label>기준 검색<input id="search" type="search" placeholder="예: 피해구제, 보안, 공급자"></label>
+          <label>위험 시나리오<select class="ds-input" id="scenario"><option value="">전체 시나리오</option></select></label>
+          <label>기준 검색<input class="ds-input" id="search" type="search" placeholder="예: 피해구제, 보안, 공급자"></label>
         </div>
         <div id="scenario-detail" class="lab-note" hidden></div>
         <div id="criteria-list"></div>
-        <p id="empty" hidden>일치하는 기준이 없습니다. 시나리오나 검색어를 바꿔 보세요.</p>
+        <p id="empty" class="ds-status" data-state="empty" role="status" hidden>일치하는 기준이 없습니다. 시나리오나 검색어를 바꿔 보세요.</p>
       </section>
       <aside class="lab-sidebar">
-        <section class="lab-panel" aria-labelledby="simulation-title">
+        <section class="ds-panel lab-panel" aria-labelledby="simulation-title">
           <p class="lab-eyebrow">SYNTHETIC CASES</p><h2 id="simulation-title">증빙 판정 확인</h2>
           <p>사례를 바꾸면 실제 판정 규칙을 다시 실행합니다. 증빙이 없거나 서로 모순될 때 결과가 어떻게 달라지는지 확인하세요.</p>
-          <label>가상 검증 사례<select id="case"></select></label>
+          <label>가상 검증 사례<select class="ds-input" id="case"></select></label>
           <button id="run-case" class="ds-secondary">선택한 사례 다시 판정</button>
           <div id="case-result" aria-live="polite"></div>
           <details><summary>이 사례의 입력 증빙 보기</summary><div id="case-evidence"></div></details>
           <button id="run-all" class="ds-secondary">전체 20개 사례 검증</button>
-          <p id="suite-result" role="status"></p>
+          <p id="suite-result" class="ds-status" role="status" hidden></p>
         </section>
-        <section class="lab-panel" aria-labelledby="report-title"><h2 id="report-title">리포트에 포함할 내용</h2><ol id="report-sections"></ol></section>
-        <section class="lab-panel" aria-labelledby="next-title"><h2 id="next-title">실제 리포트를 만들려면</h2><p id="next-step"></p><p>공식 원문 또는 고객 증빙 수집 ▶ 적용 범위 검토 ▶ 전문가 검증 ▶ 리포트 작성 순서로 진행합니다. 가상 사례 통과는 전문가 정확도 검증을 대신하지 않습니다.</p></section>
+        <section class="ds-panel lab-panel" aria-labelledby="report-title"><h2 id="report-title">리포트에 포함할 내용</h2><ol id="report-sections"></ol></section>
+        <section class="ds-panel lab-panel" aria-labelledby="next-title"><h2 id="next-title">실제 리포트를 만들려면</h2><p id="next-step"></p><p>공식 원문 또는 고객 증빙 수집 ▶ 적용 범위 검토 ▶ 전문가 검증 ▶ 리포트 작성 순서로 진행합니다. 가상 사례 통과는 전문가 정확도 검증을 대신하지 않습니다.</p></section>
       </aside>
     </div>
     <section class="sources-section" aria-labelledby="sources-title"><h2 id="sources-title">참고 출처와 연결 구조</h2><p>공식 출처를 참고한 편집상 연결입니다. 자발적 권고를 법적 의무로 해석하지 않습니다.</p><details><summary id="graph-summary"></summary><div id="graph"></div></details><details><summary>공식 참고 출처 10개</summary><ul id="sources"></ul></details></section>
