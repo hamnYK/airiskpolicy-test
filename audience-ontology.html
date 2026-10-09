@@ -9,9 +9,9 @@
 <link rel="stylesheet" href="design-system.css?v=30c3b8f70cc8">
 <link rel="stylesheet" href="audience-ontology.css?v=a5d224a489d8">
 <script defer src="audience-model.js?v=a739a1eb8faa"></script>
-<script defer src="audience-ontology.js?v=802b9286f721"></script>
+<script defer src="audience-ontology.js?v=20748cbcbf7b"></script>
 <meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="test-environment.css?v=90b4c5622796"></head>
-<body data-catalog-version="c7944445830d"><aside class="test-environment-banner" data-no-translate aria-label="테스트 환경">TEST · 테스트 환경 — 변경사항은 테스트 데이터에만 반영됩니다. <a class="ds-link" href="audience-ontology.html">고객군별 온톨로지 검토</a></aside>
+<body data-catalog-version="5813a8ad1bfd"><aside class="test-environment-banner" data-no-translate aria-label="테스트 환경">TEST · 테스트 환경 — 변경사항은 테스트 데이터에만 반영됩니다. <a class="ds-link" href="audience-ontology.html">고객군별 온톨로지 검토</a></aside>
 <header class="lab-header"><a href="index.html" class="ds-link">AI Risk &amp; Policy</a><a href="index.html" class="ds-link">테스트 사이트로 돌아가기</a></header>
 <main class="lab-main">
   <section class="lab-intro" aria-labelledby="lab-title">
@@ -44,6 +44,12 @@
         <p id="empty" class="ds-status" data-state="empty" role="status" hidden>일치하는 기준이 없습니다. 시나리오나 검색어를 바꿔 보세요.</p>
       </section>
       <aside class="lab-sidebar">
+        <section class="ds-panel lab-panel" aria-labelledby="observations-title">
+          <h2 id="observations-title">실제 데이터로 검토한 보완</h2>
+          <p id="observations-summary"></p>
+          <p>실제 공개 자료를 기준으로 개념과 질문을 보완했습니다. 원본의 사건·잠재위험 분류와 정책 목록은 조사 근거이며, 특정 국가의 공백이나 기업의 통제 실패를 확정하지 않습니다.</p>
+          <details id="observations-details"><summary>국가별 자료와 고객군별 보완 보기</summary><div id="observations-countries"></div><div id="observations-changes"></div></details>
+        </section>
         <section class="ds-panel lab-panel" aria-labelledby="simulation-title">
           <p class="lab-eyebrow">SYNTHETIC CASES</p><h2 id="simulation-title">증빙 판정 확인</h2>
           <p>사례를 바꾸면 실제 판정 규칙을 다시 실행합니다. 증빙이 없거나 서로 모순될 때 결과가 어떻게 달라지는지 확인하세요.</p>
