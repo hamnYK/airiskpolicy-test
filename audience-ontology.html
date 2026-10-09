@@ -9,9 +9,9 @@
 <link rel="stylesheet" href="design-system.css?v=30c3b8f70cc8">
 <link rel="stylesheet" href="audience-ontology.css?v=2def16af18b9">
 <script defer src="audience-model.js?v=a739a1eb8faa"></script>
-<script defer src="audience-ontology.js?v=1ffd8c26f6a4"></script>
+<script defer src="audience-ontology.js?v=8b51535dc284"></script>
 <meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="test-environment.css?v=90b4c5622796"></head>
-<body data-catalog-version="b520cba6ea29"><aside class="test-environment-banner" data-no-translate aria-label="테스트 환경">TEST · 테스트 환경 — 변경사항은 테스트 데이터에만 반영됩니다. <a class="ds-link" href="audience-ontology.html">고객군별 온톨로지 검토</a></aside>
+<body data-catalog-version="49e9638da8e5"><aside class="test-environment-banner" data-no-translate aria-label="테스트 환경">TEST · 테스트 환경 — 변경사항은 테스트 데이터에만 반영됩니다. <a class="ds-link" href="audience-ontology.html">고객군별 온톨로지 검토</a></aside>
 <header class="lab-header"><a href="index.html" class="ds-link">AI Risk &amp; Policy</a><a href="index.html" class="ds-link">테스트 사이트로 돌아가기</a></header>
 <main class="lab-main">
   <section class="lab-intro" aria-labelledby="lab-title">
@@ -38,6 +38,11 @@
       <p>원본 분류 ▶ 검토할 통제목표 ◀ 분석 기준 ▶ 질문 ▶ 필요한 증빙을 연결합니다. 정책 후보는 같은 국가의 원칙 연결로 찾습니다. 화살표는 관계의 방향이며, 정책의 대응 효과나 기업의 통제 상태를 확정하지 않습니다.</p>
       <div class="criteria-filters relations-toolbar"><label>실제 자료 예시<select id="graph-case" class="ds-input"></select></label><button id="download-context" class="ds-secondary">LLM 근거 묶음 내려받기</button></div>
       <p id="relations-scope" class="ds-status" data-state="empty"></p>
+      <details id="standards-details"><summary>표준 형식과 검증 결과</summary>
+        <p>원칙·별칭은 SKOS, 출처와 변환 이력은 PROV-O로 표현합니다. JSON-LD를 RDF로 변환하여 SHACL 구조 검증을 실행했습니다. 이 검증은 근거의 사실성이나 정책 효과를 인증하지 않습니다.</p>
+        <nav class="lab-jumps" aria-label="표준 온톨로지 내려받기"><a id="download-jsonld" class="ds-link" download>현재 예시 JSON-LD</a><a class="ds-link" href="assets/audience-ontologies/w3c/vocabulary.ttl?v=49e9638da8e5" download>용어·관계 정의</a><a class="ds-link" href="assets/audience-ontologies/w3c/shapes.ttl?v=49e9638da8e5" download>SHACL 검증 규칙</a><a class="ds-link" href="assets/audience-ontologies/w3c/validation.json?v=49e9638da8e5" download>실데이터 검증 결과</a></nav>
+        <p>현재 고객군·예시의 자료와 공통 개념을 포함합니다. 전체 실데이터 그래프는 로컬 내보내기로 제공합니다. 미확인 값과 조사 후보의 구분을 유지합니다.</p>
+      </details>
       <div id="relations-paths"></div>
       <details><summary>확인되지 않은 근거와 인용 범위</summary><div id="relations-unknowns"></div></details>
     </section>

@@ -1,0 +1,121 @@
+@prefix air: <https://www.aipolicy.world/ontology/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+air:ConceptShape a sh:NodeShape ; sh:targetClass skos:Concept ;
+ sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:uniqueLang true ; sh:disjoint skos:altLabel ] ;
+ sh:property [ sh:path skos:inScheme ; sh:minCount 1 ; sh:maxCount 1 ; sh:class skos:ConceptScheme ] ;
+ sh:property [ sh:path skos:broader ; sh:class skos:Concept ] ;
+ sh:property [ sh:path skos:broadMatch ; sh:class skos:Concept ] .
+
+air:AssertionShape a sh:NodeShape ; sh:targetClass air:RelationAssertion ;
+ sh:property [ sh:path rdf:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ; sh:class prov:Entity ] ;
+ sh:property [ sh:path rdf:predicate ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+ sh:property [ sh:path rdf:object ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ; sh:class prov:Entity ] ;
+ sh:property [ sh:path air:authority ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "source-reported" "editorial" "requirement" ) ] ;
+ sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:class air:EvidenceLocator ] ;
+ sh:property [ sh:path air:payload ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype rdf:JSON ] .
+
+air:LocatorShape a sh:NodeShape ; sh:targetClass air:EvidenceLocator ;
+ sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:class prov:Entity ] ;
+ sh:property [ sh:path air:payload ; sh:minCount 1 ; sh:datatype rdf:JSON ] .
+
+air:SourceFieldShape a sh:NodeShape ; sh:targetClass air:SourceField ;
+ sh:property [ sh:path air:owner ; sh:minCount 1 ; sh:maxCount 1 ; sh:class prov:Entity ] ;
+ sh:property [ sh:path air:field ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "source-reported" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:valueState ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "unknown" "reported" ) ] ;
+ sh:property [ sh:path air:payload ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype rdf:JSON ] ;
+ sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:class air:EvidenceLocator ] .
+
+air:RequirementShape a sh:NodeShape ; sh:targetClass air:EvidenceRequirement ;
+ sh:property [ sh:path air:authority ; sh:hasValue "requirement" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:available ; sh:hasValue false ; sh:maxCount 1 ] .
+
+air:ExportShape a sh:NodeShape ; sh:targetClass air:Export ;
+ sh:property [ sh:path air:publicationReady ; sh:hasValue false ; sh:maxCount 1 ] ;
+ sh:property [ sh:path prov:wasGeneratedBy ; sh:minCount 1 ; sh:maxCount 1 ; sh:class prov:Activity ] ;
+ sh:property [ sh:path air:unknowns ; sh:minCount 1 ] .
+
+air:TypedRelationShape a sh:NodeShape ; sh:targetClass air:RelationAssertion ;
+ sh:property [ sh:path rdf:type ; sh:qualifiedMinCount 1 ; sh:qualifiedMaxCount 1 ; sh:qualifiedValueShape [ sh:in ( air:Relation_classifiedAs air:Relation_hasContext air:Relation_broader air:Relation_suggestsControl air:Relation_investigates air:Relation_asks air:Relation_requiresEvidence air:Relation_supportsPrinciple air:Relation_mayCause air:Relation_mayAffect air:Relation_investigateControl ) ] ] .
+
+air:classifiedAsShape a sh:NodeShape ; sh:targetClass air:Relation_classifiedAs ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "classifiedAs" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "source-reported" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:classifiedAs ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:RiskObservation ] [ sh:class air:PolicyRecord ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:SourcePrinciple ] .
+
+air:hasContextShape a sh:NodeShape ; sh:targetClass air:Relation_hasContext ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "hasContext" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "source-reported" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:hasContext ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:RiskObservation ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:ObservedContext ] .
+
+air:broaderShape a sh:NodeShape ; sh:targetClass air:Relation_broader ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "broader" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:in ( skos:broader skos:broadMatch ) ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:SourcePrinciple ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:SourcePrinciple ] .
+
+air:suggestsControlShape a sh:NodeShape ; sh:targetClass air:Relation_suggestsControl ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "suggestsControl" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:suggestsControl ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:SourcePrinciple ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:ControlObjective ] .
+
+air:investigatesShape a sh:NodeShape ; sh:targetClass air:Relation_investigates ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "investigates" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:investigates ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:Criterion ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:ControlObjective ] .
+
+air:asksShape a sh:NodeShape ; sh:targetClass air:Relation_asks ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "asks" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:asks ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:Criterion ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:Check ] .
+
+air:requiresEvidenceShape a sh:NodeShape ; sh:targetClass air:Relation_requiresEvidence ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "requiresEvidence" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "requirement" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:requiresEvidence ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:Check ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:EvidenceRequirement ] .
+
+air:supportsPrincipleShape a sh:NodeShape ; sh:targetClass air:Relation_supportsPrinciple ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "supportsPrinciple" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:supportsPrinciple ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:ControlObjective ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:Principle ] .
+
+air:mayCauseShape a sh:NodeShape ; sh:targetClass air:Relation_mayCause ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "mayCause" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:mayCause ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:RiskScenario ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:Harm ] .
+
+air:mayAffectShape a sh:NodeShape ; sh:targetClass air:Relation_mayAffect ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "mayAffect" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:mayAffect ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:RiskScenario ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:Stakeholder ] .
+
+air:investigateControlShape a sh:NodeShape ; sh:targetClass air:Relation_investigateControl ;
+ sh:property [ sh:path air:relationType ; sh:hasValue "investigateControl" ; sh:maxCount 1 ] ;
+ sh:property [ sh:path air:authority ; sh:hasValue "editorial" ] ;
+ sh:property [ sh:path rdf:predicate ; sh:hasValue air:investigateControl ] ;
+ sh:property [ sh:path rdf:subject ; sh:or ( [ sh:class air:RiskScenario ] ) ] ;
+ sh:property [ sh:path rdf:object ; sh:class air:ControlObjective ] .

@@ -1,0 +1,62 @@
+@prefix air: <https://www.aipolicy.world/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+air:SourceSnapshot a rdfs:Class ; rdfs:label "SourceSnapshot"@en ; rdfs:comment "Preserved source data, not independently verified truth."@en .
+air:CoreVocabulary a rdfs:Class ; rdfs:label "CoreVocabulary"@en ; rdfs:comment "Versioned editorial common vocabulary."@en .
+air:AudienceProfile a rdfs:Class ; rdfs:label "AudienceProfile"@en ; rdfs:comment "Customer-specific investigation criteria."@en .
+air:EditorialMapping a rdfs:Class ; rdfs:label "EditorialMapping"@en ; rdfs:comment "Explicit editorial mapping rules."@en .
+air:Export a rdfs:Class ; rdfs:label "Export"@en ; rdfs:comment "A standards export, not an approved report."@en .
+air:EvidenceLocator a rdfs:Class ; rdfs:label "EvidenceLocator"@en ; rdfs:comment "Source location and hash supporting an assertion."@en .
+air:RelationAssertion a rdfs:Class ; rdfs:label "RelationAssertion"@en ; rdfs:comment "A qualified source-reported, editorial or requirement statement."@en .
+air:SourceField a rdfs:Class ; rdfs:label "SourceField"@en ; rdfs:comment "A field reported by a source; absence is not a negative finding."@en .
+air:RiskObservation a rdfs:Class ; rdfs:label "RiskObservation"@en ; rdfs:comment "External incident or hazard observation."@en .
+air:PolicyRecord a rdfs:Class ; rdfs:label "PolicyRecord"@en ; rdfs:comment "Policy catalogue record; applicability is unestablished."@en .
+air:ObservedContext a rdfs:Class ; rdfs:label "ObservedContext"@en ; rdfs:comment "Context reported for an external observation, not a customer system."@en .
+air:SourcePrinciple a rdfs:Class ; rdfs:label "SourcePrinciple"@en ; rdfs:comment "Principle label from a source classification."@en .
+air:ControlObjective a rdfs:Class ; rdfs:label "ControlObjective"@en ; rdfs:comment "Editorial control objective concept."@en .
+air:Criterion a rdfs:Class ; rdfs:label "Criterion"@en ; rdfs:comment "Customer-specific investigation criterion."@en .
+air:Check a rdfs:Class ; rdfs:label "Check"@en ; rdfs:comment "Investigation question."@en .
+air:EvidenceRequirement a rdfs:Class ; rdfs:label "EvidenceRequirement"@en ; rdfs:comment "Evidence requested, not acquired evidence."@en .
+air:Principle a rdfs:Class ; rdfs:label "Principle"@en ; rdfs:comment "Editorial principle concept."@en .
+air:Harm a rdfs:Class ; rdfs:label "Harm"@en ; rdfs:comment "Potential harm concept."@en .
+air:Stakeholder a rdfs:Class ; rdfs:label "Stakeholder"@en ; rdfs:comment "Stakeholder category concept."@en .
+air:RiskScenario a rdfs:Class ; rdfs:label "RiskScenario"@en ; rdfs:comment "Editorial risk scenario concept."@en .
+air:payload a rdf:Property ; rdfs:label "payload"@en ; rdfs:comment "Lossless structured content encoded as rdf:JSON, including a wrapper for null."@en .
+air:sha256 a rdf:Property ; rdfs:label "sha256"@en ; rdfs:comment "SHA-256 of the preserved JSON representation; not proof of truth."@en .
+air:profileId a rdf:Property ; rdfs:label "profileId"@en ; rdfs:comment "Audience profile identifier."@en .
+air:publicationReady a rdf:Property ; rdfs:label "publicationReady"@en ; rdfs:comment "Whether the artifact is an approved publication. These exports are false."@en .
+air:sourceAsOf a rdf:Property ; rdfs:label "sourceAsOf"@en ; rdfs:comment "Source observation cutoff date."@en .
+air:retrievedAt a rdf:Property ; rdfs:label "retrievedAt"@en ; rdfs:comment "Recorded snapshot retrieval time."@en .
+air:interpretation a rdf:Property ; rdfs:label "interpretation"@en ; rdfs:comment "Limits on interpretation of this resource."@en .
+air:unknowns a rdf:Property ; rdfs:label "unknowns"@en ; rdfs:comment "Evidence not yet established."@en .
+air:authority a rdf:Property ; rdfs:label "authority"@en ; rdfs:comment "Source-reported, editorial or requirement status; never automatic verification."@en .
+air:country a rdf:Property ; rdfs:label "country"@en ; rdfs:comment "Country scope code of the source record."@en .
+air:available a rdf:Property ; rdfs:label "available"@en ; rdfs:comment "Whether requested evidence is actually available."@en .
+air:review a rdf:Property ; rdfs:label "review"@en ; rdfs:comment "Editorial review status; not external certification."@en .
+air:owner a rdf:Property ; rdfs:label "owner"@en ; rdfs:comment "Record owning a reported source field."@en .
+air:field a rdf:Property ; rdfs:label "field"@en ; rdfs:comment "Original source field name."@en .
+air:valueState a rdf:Property ; rdfs:label "valueState"@en ; rdfs:comment "Unknown for null; reported for other source values."@en .
+air:relationType a rdf:Property ; rdfs:label "relationType"@en ; rdfs:comment "Original application relation type."@en .
+air:classifiedAs a rdf:Property ; rdfs:label "classifiedAs"@en ; rdfs:comment "The source classifies a record with a principle label."@en .
+air:hasContext a rdf:Property ; rdfs:label "hasContext"@en ; rdfs:comment "An external observation has source-reported context."@en .
+air:broader a rdf:Property ; rdfs:label "broader"@en ; rdfs:comment "Legacy directional editorial principle mapping; exported using SKOS mapping semantics."@en .
+air:suggestsControl a rdf:Property ; rdfs:label "suggestsControl"@en ; rdfs:comment "An editorial candidate control to investigate."@en .
+air:investigates a rdf:Property ; rdfs:label "investigates"@en ; rdfs:comment "A criterion investigates a control objective."@en .
+air:asks a rdf:Property ; rdfs:label "asks"@en ; rdfs:comment "A criterion asks an investigation question."@en .
+air:requiresEvidence a rdf:Property ; rdfs:label "requiresEvidence"@en ; rdfs:comment "A question requires a type of evidence, not proof that it exists."@en .
+air:supportsPrinciple a rdf:Property ; rdfs:label "supportsPrinciple"@en ; rdfs:comment "Editorial candidate support for a principle, not proven effectiveness."@en .
+air:mayCause a rdf:Property ; rdfs:label "mayCause"@en ; rdfs:comment "Editorial potential harm association, not demonstrated causation."@en .
+air:mayAffect a rdf:Property ; rdfs:label "mayAffect"@en ; rdfs:comment "Editorial potential stakeholder association."@en .
+air:investigateControl a rdf:Property ; rdfs:label "investigateControl"@en ; rdfs:comment "A scenario suggests investigation of a control objective."@en .
+air:Relation_classifiedAs a rdfs:Class ; rdfs:label "Qualified classifiedAs assertion"@en .
+air:Relation_hasContext a rdfs:Class ; rdfs:label "Qualified hasContext assertion"@en .
+air:Relation_broader a rdfs:Class ; rdfs:label "Qualified broader assertion"@en .
+air:Relation_suggestsControl a rdfs:Class ; rdfs:label "Qualified suggestsControl assertion"@en .
+air:Relation_investigates a rdfs:Class ; rdfs:label "Qualified investigates assertion"@en .
+air:Relation_asks a rdfs:Class ; rdfs:label "Qualified asks assertion"@en .
+air:Relation_requiresEvidence a rdfs:Class ; rdfs:label "Qualified requiresEvidence assertion"@en .
+air:Relation_supportsPrinciple a rdfs:Class ; rdfs:label "Qualified supportsPrinciple assertion"@en .
+air:Relation_mayCause a rdfs:Class ; rdfs:label "Qualified mayCause assertion"@en .
+air:Relation_mayAffect a rdfs:Class ; rdfs:label "Qualified mayAffect assertion"@en .
+air:Relation_investigateControl a rdfs:Class ; rdfs:label "Qualified investigateControl assertion"@en .
