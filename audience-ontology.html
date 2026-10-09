@@ -7,9 +7,9 @@
 <title>고객군별 온톨로지 검토 · AI Risk &amp; Policy TEST</title>
 <link rel="stylesheet" href="typography.css?v=75dfc57c74ca">
 <link rel="stylesheet" href="design-system.css?v=30c3b8f70cc8">
-<link rel="stylesheet" href="audience-ontology.css?v=a5d224a489d8">
+<link rel="stylesheet" href="audience-ontology.css?v=2def16af18b9">
 <script defer src="audience-model.js?v=a739a1eb8faa"></script>
-<script defer src="audience-ontology.js?v=57509ee685d2"></script>
+<script defer src="audience-ontology.js?v=1ffd8c26f6a4"></script>
 <meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="test-environment.css?v=90b4c5622796"></head>
 <body data-catalog-version="b520cba6ea29"><aside class="test-environment-banner" data-no-translate aria-label="테스트 환경">TEST · 테스트 환경 — 변경사항은 테스트 데이터에만 반영됩니다. <a class="ds-link" href="audience-ontology.html">고객군별 온톨로지 검토</a></aside>
 <header class="lab-header"><a href="index.html" class="ds-link">AI Risk &amp; Policy</a><a href="index.html" class="ds-link">테스트 사이트로 돌아가기</a></header>
@@ -36,13 +36,13 @@
       <h2 id="relations-title">고객군별 실제 자료 관계 그래프</h2>
       <p id="relations-summary"></p>
       <p>원본 분류 ▶ 검토할 통제목표 ◀ 분석 기준 ▶ 질문 ▶ 필요한 증빙을 연결합니다. 정책 후보는 같은 국가의 원칙 연결로 찾습니다. 화살표는 관계의 방향이며, 정책의 대응 효과나 기업의 통제 상태를 확정하지 않습니다.</p>
-      <div class="criteria-filters"><label>실제 자료 예시<select id="graph-case" class="ds-input"></select></label><div><button id="download-context" class="ds-secondary">LLM 근거 묶음 내려받기</button></div></div>
+      <div class="criteria-filters relations-toolbar"><label>실제 자료 예시<select id="graph-case" class="ds-input"></select></label><button id="download-context" class="ds-secondary">LLM 근거 묶음 내려받기</button></div>
       <p id="relations-scope" class="ds-status" data-state="empty"></p>
       <div id="relations-paths"></div>
       <details><summary>확인되지 않은 근거와 인용 범위</summary><div id="relations-unknowns"></div></details>
     </section>
     <div class="lab-columns">
-      <section aria-labelledby="criteria-title">
+      <section class="ds-panel lab-panel criteria-panel" aria-labelledby="criteria-title">
         <div class="section-heading"><h2 id="criteria-title">분석 기준과 증빙</h2><p id="criteria-count" role="status"></p></div>
         <div class="criteria-filters">
           <label>위험 시나리오<select class="ds-input" id="scenario"><option value="">전체 시나리오</option></select></label>
