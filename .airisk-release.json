@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-09T15-38-08-045Z-3d2437",
+  "id": "2026-10-09T16-12-26-154Z-358430",
   "environment": "test",
   "verified": true,
   "tests": "passed",
@@ -82,8 +82,16 @@
       "sha256": "c32348577fae5a8f8f234b5e6dda767b0f189a955dd7d02baf148fb00ee1b212"
     },
     {
+      "path": "assets/audience-ontologies/report-pilot-requests.json",
+      "sha256": "e606c25244960c8dabb93a947448b34742aea989f5550e804736f7ebd4168599"
+    },
+    {
+      "path": "assets/audience-ontologies/report-pilot.md",
+      "sha256": "989f6d714c4853f299f870235bdc4dba74e13245bdb86cb1c653680981d80caf"
+    },
+    {
       "path": "assets/audience-ontologies/review.json",
-      "sha256": "e70abb6f2738e64d29adfa73f464b2438b0f942cffc7b855f40a2991b7971f9e"
+      "sha256": "df70cf0e5d3d4b4169ba8e14a9e98679e09d800e8343d89d19b02b169370ab8c"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-report.nq",
@@ -207,11 +215,11 @@
     },
     {
       "path": "audience-ontology.html",
-      "sha256": "1acd6635d8da33154244ee27dc911a8888715004529c788722d0491548b641de"
+      "sha256": "46d8bf6f1bfa0fc947f1b2260b4f8ce5e8d7991439b14ce45e791fbd3d7c3498"
     },
     {
       "path": "audience-ontology.js",
-      "sha256": "6f64b9b07f5265c5d37c1ca8860e33b526037def71e5b1475028e2ecae77d90e"
+      "sha256": "181ab719025b7665cf3c42e3b13dbf48cb96d4297806d5e61adf294786f5c062"
     },
     {
       "path": "community.css",

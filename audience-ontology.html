@@ -9,9 +9,9 @@
 <link rel="stylesheet" href="design-system.css?v=30c3b8f70cc8">
 <link rel="stylesheet" href="audience-ontology.css?v=2def16af18b9">
 <script defer src="audience-model.js?v=a739a1eb8faa"></script>
-<script defer src="audience-ontology.js?v=6f64b9b07f52"></script>
+<script defer src="audience-ontology.js?v=181ab719025b"></script>
 <meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="test-environment.css?v=90b4c5622796"></head>
-<body data-catalog-version="e70abb6f2738"><aside class="test-environment-banner" data-no-translate aria-label="테스트 환경">TEST · 테스트 환경 — 변경사항은 테스트 데이터에만 반영됩니다. <a class="ds-link" href="audience-ontology.html">고객군별 온톨로지 검토</a></aside>
+<body data-catalog-version="df70cf0e5d3d"><aside class="test-environment-banner" data-no-translate aria-label="테스트 환경">TEST · 테스트 환경 — 변경사항은 테스트 데이터에만 반영됩니다. <a class="ds-link" href="audience-ontology.html">고객군별 온톨로지 검토</a></aside>
 <header class="lab-header"><a href="index.html" class="ds-link">AI Risk &amp; Policy</a><a href="index.html" class="ds-link">테스트 사이트로 돌아가기</a></header>
 <main class="lab-main">
   <section class="lab-intro" aria-labelledby="lab-title">
@@ -31,7 +31,7 @@
       <div><p id="profile-version" class="lab-eyebrow"></p><h2 id="profile-title"></h2><p id="profile-unit"></p><p id="profile-path"></p></div>
       <div class="profile-actions"><p id="profile-count" class="profile-count"></p><button id="download" class="ds-secondary">선택한 온톨로지 JSON 내려받기</button></div>
     </section>
-    <nav class="lab-jumps" aria-label="검토 화면 이동"><a class="ds-link" href="#real-simulation-title">실데이터 분석 보기</a><a class="ds-link" href="#criteria-title">분석 기준 보기</a><a class="ds-link" href="#simulation-title">가상 사례 판정 확인</a><a class="ds-link" href="#sources-title">참고 출처 보기</a></nav>
+    <nav class="lab-jumps" aria-label="검토 화면 이동"><a class="ds-link" href="#pilot-title">공식 사례 리포트</a><a class="ds-link" href="#real-simulation-title">실데이터 분석 보기</a><a class="ds-link" href="#criteria-title">분석 기준 보기</a><a class="ds-link" href="#simulation-title">가상 사례 판정 확인</a><a class="ds-link" href="#sources-title">참고 출처 보기</a></nav>
     <section class="ds-panel lab-panel" aria-labelledby="relations-title">
       <h2 id="relations-title">고객군별 실제 자료 관계 그래프</h2>
       <p id="relations-summary"></p>
@@ -40,7 +40,7 @@
       <p id="relations-scope" class="ds-status" data-state="empty"></p>
       <details id="standards-details"><summary>표준 형식과 검증 결과</summary>
         <p>원칙·별칭은 SKOS, 출처와 변환 이력은 PROV-O로 표현합니다. JSON-LD를 RDF로 변환하여 SHACL 구조 검증을 실행했습니다. 이 검증은 근거의 사실성이나 정책 효과를 인증하지 않습니다.</p>
-        <nav class="lab-jumps" aria-label="표준 온톨로지 내려받기"><a id="download-jsonld" class="ds-link" download>현재 예시 JSON-LD</a><a class="ds-link" href="assets/audience-ontologies/w3c/vocabulary.ttl?v=e70abb6f2738" download>용어·관계 정의</a><a class="ds-link" href="assets/audience-ontologies/w3c/shapes.ttl?v=e70abb6f2738" download>SHACL 검증 규칙</a><a class="ds-link" href="assets/audience-ontologies/w3c/validation.json?v=e70abb6f2738" download>실데이터 검증 결과</a></nav>
+        <nav class="lab-jumps" aria-label="표준 온톨로지 내려받기"><a id="download-jsonld" class="ds-link" download>현재 예시 JSON-LD</a><a class="ds-link" href="assets/audience-ontologies/w3c/vocabulary.ttl?v=df70cf0e5d3d" download>용어·관계 정의</a><a class="ds-link" href="assets/audience-ontologies/w3c/shapes.ttl?v=df70cf0e5d3d" download>SHACL 검증 규칙</a><a class="ds-link" href="assets/audience-ontologies/w3c/validation.json?v=df70cf0e5d3d" download>실데이터 검증 결과</a></nav>
         <p>현재 고객군·예시의 자료와 공통 개념을 포함합니다. 전체 실데이터 그래프는 로컬 내보내기로 제공합니다. 미확인 값과 조사 후보의 구분을 유지합니다.</p>
       </details>
       <div id="relations-paths"></div>
@@ -62,6 +62,12 @@
       <button id="download-holdout" class="ds-secondary">보완 전후 결과 내려받기</button>
       <div id="holdout-countries"></div>
       <details><summary>진단 사례의 보완 전후 · 전문가 정답 아님</summary><div id="holdout-examples"></div></details>
+    </section>
+    <section class="ds-panel lab-panel" aria-labelledby="pilot-title">
+      <h2 id="pilot-title">공식 기업 사례로 만든 리포트 초안</h2>
+      <p>Rite Aid·iTutorGroup의 공식 원문을 두 고객군의 조사 질문에 연결했습니다. 기관의 주장·명령 조건·실제 이행을 구분합니다. 실제 LLM 호출 0건 · 전문가 검토 0건 · 현재 고객의 확정 Gap 판정 0건입니다.</p>
+      <nav class="lab-jumps" aria-label="공식 사례 자료"><a class="ds-link" href="assets/audience-ontologies/report-pilot.md" download>고객군별 리포트 4개 내려받기</a><a class="ds-link" href="assets/audience-ontologies/report-pilot-requests.json" download>향후 LLM 검증용 근거 묶음</a></nav>
+      <div id="pilot-reports"></div>
     </section>
     <div class="lab-columns">
       <section class="ds-panel lab-panel criteria-panel" aria-labelledby="criteria-title">
