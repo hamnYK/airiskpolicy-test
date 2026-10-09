@@ -21,4 +21,3 @@ input[type=search],select{display:block;width:100%;min-width:0;height:48px;borde
 :focus-visible{outline:3px solid var(--ds-action);outline-offset:3px}
 @media(max-width:850px){.lab-columns{grid-template-columns:1fr}.lab-sidebar{display:grid;grid-template-columns:1fr 1fr;gap:16px}.lab-sidebar>section:first-child{grid-column:1/-1}.profile-summary{align-items:flex-start;flex-direction:column}.profile-actions{width:100%}}
 @media(max-width:540px){.lab-main{padding:24px 16px 40px}.lab-header{padding:12px 16px}.audience-picker{grid-template-columns:1fr}.audience-picker label{padding:16px;min-height:88px}.criteria-filters,.lab-sidebar{grid-template-columns:1fr}.lab-panel{padding:16px}.profile-actions button{width:100%}.section-heading{align-items:flex-start}.profile-summary h2{font-size:23px}}
-
