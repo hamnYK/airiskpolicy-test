@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-09T16-12-26-154Z-358430",
+  "id": "2026-10-09T16-28-26-846Z-e988fe",
   "environment": "test",
   "verified": true,
   "tests": "passed",
@@ -31,11 +31,11 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "c0d2eb0003df13cde0d4e619556dc5a6251e157e2f050987e09d1eacbe719cb0"
+      "sha256": "cae8fdb1ee0debd159d9c0dee8ac6c171d03d42386deca86937d38edd058bfee"
     },
     {
       "path": "admin/login.html",
-      "sha256": "5bd4f71af1ad5868b13a8122c04f4037eba3a2e9658fa47556e5444f8e1c233e"
+      "sha256": "6eb4773d0c146605be7b18b375b8100852b8cff2e03578ba759ef9bd2408d230"
     },
     {
       "path": "admin/login.js",
@@ -59,7 +59,7 @@
     },
     {
       "path": "admin/weekly.html",
-      "sha256": "423900ac04bdf18b8d5ac7205f58dc98eb1934f100232b5fc927b4e2379a50fe"
+      "sha256": "53ec478d2970daed3288247f08e5cabb286be977f914e923765ddaef979f4457"
     },
     {
       "path": "admin/weekly.js",
@@ -211,15 +211,15 @@
     },
     {
       "path": "audience-ontology.css",
-      "sha256": "2def16af18b90b1704fe54cfb3b61c6a4fcbc41af02c6f56656e29ac1e0d74e4"
+      "sha256": "7fa46c769c9c93d6247a9835d653c5994db6b237eb66db3bd1bd3c677a23ec62"
     },
     {
       "path": "audience-ontology.html",
-      "sha256": "46d8bf6f1bfa0fc947f1b2260b4f8ce5e8d7991439b14ce45e791fbd3d7c3498"
+      "sha256": "2e90c829bd4437a28901200bea5e16bd643758f6fa63470c11b6cb31d5081af9"
     },
     {
       "path": "audience-ontology.js",
-      "sha256": "181ab719025b7665cf3c42e3b13dbf48cb96d4297806d5e61adf294786f5c062"
+      "sha256": "c547222789791129f75b012a07ca7dca71a766b1c8e33c22f19974130f5f635d"
     },
     {
       "path": "community.css",
@@ -227,7 +227,7 @@
     },
     {
       "path": "community.html",
-      "sha256": "21a8285f97a364be28cfbd1709449f0eeb7472ce37caeab61d52bb6bd149fb26"
+      "sha256": "243ff76b2756ddb4d77dab9ee92d036305134caa6a40cea942dcf2039acd99c2"
     },
     {
       "path": "design-system-page.css",
@@ -239,11 +239,11 @@
     },
     {
       "path": "design-system.css",
-      "sha256": "30c3b8f70cc81eb0f9592263dc669472cac06f42ce6d8be56475d806168d1a34"
+      "sha256": "c1cd4a5f3a9e617513dd1bcdf5652fc6f30a639be83c27f0fe611b4cffd42c30"
     },
     {
       "path": "design-system.html",
-      "sha256": "ee4f976adec9b6571305777258f72d1aaf19da06f9573e80616172f51a7eda62"
+      "sha256": "c898277ea7aa154aaebc20f46f497557c88bb883e5de82f911e18744fdc310ad"
     },
     {
       "path": "explorer-layout.css",
@@ -287,7 +287,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "7b77234b1e6a4c3a6b44245033cf7a045af3eb6937f202baa2d27c1ee69ca059"
+      "sha256": "ebb3c54b8ce85bab1183567d08ae7da0eecaa4005207cdc1aada96f1e7f17e2c"
     },
     {
       "path": "journey.css",
@@ -355,7 +355,7 @@
     },
     {
       "path": "typography.css",
-      "sha256": "75dfc57c74ca5e961ef2e3d3a39a933a47d61995c6b20bc37339df53dcd77d90"
+      "sha256": "3cce4a8bebd05fa5461a8921828cfedb4f86c875341ba60804f3642869a7cb3d"
     },
     {
       "path": "vendor/cesium/Assets/approximateTerrainHeights.json",
