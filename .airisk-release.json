@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-09T15-20-29-625Z-dbad41",
+  "id": "2026-10-09T15-38-08-045Z-3d2437",
   "environment": "test",
   "verified": true,
   "tests": "passed",
@@ -83,7 +83,7 @@
     },
     {
       "path": "assets/audience-ontologies/review.json",
-      "sha256": "f8e9682645cf56ee55f16aeade7854298291f84f33903276ace461372a7ef45f"
+      "sha256": "e70abb6f2738e64d29adfa73f464b2438b0f942cffc7b855f40a2991b7971f9e"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-report.nq",
@@ -91,19 +91,19 @@
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-0.jsonld",
-      "sha256": "bf564e175a2d5101a088fb140c69a4c9bb2f45c45f5a1eab539f301755b884b6"
+      "sha256": "42c19b5c3c62c784b38b0b7f430ef8509085512c66001b8476b3d0ec5d842c4e"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-1.jsonld",
-      "sha256": "ba36dfd06939a3601efd9fbf0f0b9871f44fb7fbcf4ead7f52160f813181c216"
+      "sha256": "42892ce4083ee549291d00e530006aed69a8487b9daafc394ed7fc32879094bc"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-2.jsonld",
-      "sha256": "9ab92a9ce85cb7d05eb9dc26d47b745ce2206df53628d4c4bb4f518352ea32cd"
+      "sha256": "f612be5459bf814d33e7a2d4acba447da2462f2677f05c44545ae10fffb9fff3"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-3.jsonld",
-      "sha256": "b7b470c4cc709e20237cf7331434b882d8cdcdbff05af9ad94c5461db6be7dac"
+      "sha256": "198fcac2d58e1f46148e5f676a12d4d9dcf974984c3c13ee1261381ff239cc87"
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-report.nq",
@@ -111,19 +111,19 @@
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-0.jsonld",
-      "sha256": "b66ea067e58f8bc79f8b645b6af5e63530061ca175713d7ee0c3b2b14cab5bbb"
+      "sha256": "d84bc7e654c0b8db54eedc5f76abe5246513961706923c85baf66f3ba9862fde"
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-1.jsonld",
-      "sha256": "a5a93b1b64be8a3ee53295bf58b86bae325a04b92e44a6d729388090698a0321"
+      "sha256": "19c35770e37794bda80050adbc851cd6a89344ebcaacf7f0945c3477bab7df1f"
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-2.jsonld",
-      "sha256": "b231d887df66dae00105f314b58fe1d4012160170834b636a90ba18c291008b1"
+      "sha256": "aee3d4286a1467a324eae64ac0afed37d3e3cb5347d75a222e1782465341728a"
     },
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-3.jsonld",
-      "sha256": "6b8e16a5b2db7ae3888486885a8bbf667b3cc4d26ad1db90f2ffe69cf75d9d40"
+      "sha256": "672152261942f671bcc89037478c6b241f8e2fba79345baa261c0c173f35d279"
     },
     {
       "path": "assets/audience-ontologies/w3c/shapes.ttl",
@@ -131,7 +131,7 @@
     },
     {
       "path": "assets/audience-ontologies/w3c/validation.json",
-      "sha256": "d138bfce8fa5ce1d750aaa38f98e3fc474fe4e29a14b8eff01abc139b5ec041f"
+      "sha256": "c70fb7eab15b3d3a2270d4bbf72dec307bed22f7d032effbc8646dd8233d7b8f"
     },
     {
       "path": "assets/audience-ontologies/w3c/vocabulary.ttl",
@@ -207,11 +207,11 @@
     },
     {
       "path": "audience-ontology.html",
-      "sha256": "008d1d61c68ced4584c3de2870a300b9312b386208aeca8abb91332019fd0568"
+      "sha256": "1acd6635d8da33154244ee27dc911a8888715004529c788722d0491548b641de"
     },
     {
       "path": "audience-ontology.js",
-      "sha256": "9f51b99123af96605431212da255c4eef6901bb6ebd624ed74045115f8f3aac7"
+      "sha256": "6f64b9b07f5265c5d37c1ca8860e33b526037def71e5b1475028e2ecae77d90e"
     },
     {
       "path": "community.css",
