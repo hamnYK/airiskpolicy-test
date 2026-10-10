@@ -1,13 +1,12 @@
 {
-  "id": "2026-10-10T08-32-14-048Z-44d3be",
+  "id": "2026-10-10T08-36-50-525Z-260ed2",
   "environment": "test",
   "verified": true,
-  "tests": "scoped-persistent-workspace-journeys-and-atomic-storage-passed",
+  "tests": "scoped-persistent-workspace-including-reload-discard-passed",
   "verification": {
-    "baseRelease": "2026-10-10T08-17-27-813Z-0ec023",
+    "baseRelease": "2026-10-10T08-32-14-048Z-44d3be",
     "changedFiles": [
       "admin/index.html",
-      "admin/report-ai.js",
       "admin/reports.js"
     ],
     "fullSuiteRerun": false
@@ -40,7 +39,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "0ad2841df9f5861cfbe5dd3891fcf2e107b0cfa91a6c2e19cc60ceeafd6140ef"
+      "sha256": "9bdf5e556b7365c3519d414695f357947384f42f7daea93cf102f88250511b92"
     },
     {
       "path": "admin/login.html",
@@ -60,7 +59,7 @@
     },
     {
       "path": "admin/reports.js",
-      "sha256": "8337aa547813045fe260c2b1ade13bb767f4672cc20672fdd0cec72ef026c800"
+      "sha256": "923935f735a03d9b78d213c24474ac1726f14d4c1c0d36d3596a56948b8ff71b"
     },
     {
       "path": "admin/style.css",
