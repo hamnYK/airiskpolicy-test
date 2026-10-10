@@ -1,20 +1,15 @@
 {
-  "id": "2026-10-10T04-54-54-635Z-24594d",
+  "id": "2026-10-10T05-46-59-722Z-5d4953",
   "environment": "test",
   "verified": true,
   "tests": "scoped-visitor-ux-passed",
   "verification": {
-    "baseRelease": "2026-10-10T04-16-29-570Z-e8d8ea",
+    "baseRelease": "2026-10-10T04-54-54-635Z-24594d",
     "changedFiles": [
-      "admin/index.html",
-      "gap-analyzer.js",
       "gap-reports.js",
-      "index.html",
-      "report.html",
-      "reports.css"
+      "index.html"
     ],
-    "ux": "KO/EN 320/390/1280; matching unchanged; intercepted mailto equals preview and TXT",
-    "obfuscatedScripts": 37,
+    "ux": "KO/EN and mobile email flow passed; redundant contact removed",
     "fullSuiteRerun": false
   },
   "obfuscator": "5.8.1",
@@ -309,7 +304,7 @@
     },
     {
       "path": "gap-reports.js",
-      "sha256": "4544a36d457c9dc82c1b9285cffabbad473f52b07c3fbc16d53ba5021c0ab0d0"
+      "sha256": "684706772f82c6d30039b0b171650cf6cf340d6cf8fde10514b2b8f37868cbad"
     },
     {
       "path": "i18n-en.json",
@@ -325,7 +320,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "09bcf065177833b8ec9302993e3843334a1b79223b4eb4ebc5d90e700a37a52e"
+      "sha256": "9d25142e199a2cef49b9d4d48325f3efac83e0233057544369627e45da794c72"
     },
     {
       "path": "journey.css",
