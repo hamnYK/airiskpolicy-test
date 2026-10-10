@@ -1,17 +1,21 @@
 {
-  "id": "2026-10-10T04-16-29-570Z-e8d8ea",
+  "id": "2026-10-10T04-54-54-635Z-24594d",
   "environment": "test",
   "verified": true,
-  "tests": "scoped-report-verification-passed",
+  "tests": "scoped-visitor-ux-passed",
   "verification": {
-    "priorNodeTests": 98,
-    "priorNodeTestsReused": true,
-    "reportsUI": "passed on obfuscated test build",
+    "baseRelease": "2026-10-10T04-16-29-570Z-e8d8ea",
+    "changedFiles": [
+      "admin/index.html",
+      "gap-analyzer.js",
+      "gap-reports.js",
+      "index.html",
+      "report.html",
+      "reports.css"
+    ],
+    "ux": "KO/EN 320/390/1280; matching unchanged; intercepted mailto equals preview and TXT",
     "obfuscatedScripts": 37,
-    "syntax": "passed",
-    "assetHashes": "passed",
-    "vendorAndLicenses": "unchanged",
-    "fullReleaseSuiteRerun": false
+    "fullSuiteRerun": false
   },
   "obfuscator": "5.8.1",
   "files": [
@@ -41,7 +45,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "26bd796ff572a79576342b8e6d0a301c03077901c9c383e805d321a9061f1f63"
+      "sha256": "a7d22d047868fa03eb34c50d6e0685b7558b638384ae78edcbb0b6c1526552ea"
     },
     {
       "path": "admin/login.html",
@@ -285,7 +289,7 @@
     },
     {
       "path": "gap-analyzer.js",
-      "sha256": "b2d2a5108fe713eb4eeee5f3af975e85d8447d5220feef535639a648258f8371"
+      "sha256": "5efa09758dd5d1ba8c6ed9cd93e8d405aa78bd8d69d3be511d3a4b382d8df926"
     },
     {
       "path": "gap-audience-data.js",
@@ -305,7 +309,7 @@
     },
     {
       "path": "gap-reports.js",
-      "sha256": "12bcd78e55a0d50caa446285cc1ab2c5795fc19d9e6cc099a64576f7e8efa77b"
+      "sha256": "4544a36d457c9dc82c1b9285cffabbad473f52b07c3fbc16d53ba5021c0ab0d0"
     },
     {
       "path": "i18n-en.json",
@@ -321,7 +325,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "2f9d991c63045e3901d84a67f210da91e64e8402368d9fd09146e867d368e059"
+      "sha256": "09bcf065177833b8ec9302993e3843334a1b79223b4eb4ebc5d90e700a37a52e"
     },
     {
       "path": "journey.css",
@@ -373,11 +377,11 @@
     },
     {
       "path": "report.html",
-      "sha256": "7332a9e1367ed06dc63b1b1d02db1783b57ed8609a2a890e4ff8361c1556802c"
+      "sha256": "7f75f22de7cf3e3c7d7b20d301006279809b89cabd91b046f96117b608cf888e"
     },
     {
       "path": "reports.css",
-      "sha256": "db7af1cbb303df783fba9374ef72da5e21a1b7bc093b2dd5d9ae8b0228baac1a"
+      "sha256": "53f331976457a7a8ae6a5ad55bd846da235287111728bd9af99b8354f50f1a35"
     },
     {
       "path": "response-journey.css",
