@@ -1,18 +1,18 @@
 {
-  "id": "2026-10-10T06-28-27-232Z-ce0735",
+  "id": "2026-10-10T06-42-57-309Z-b01e7f",
   "environment": "test",
   "verified": true,
-  "tests": "scoped-report-ai-sql-provider-admin-reader-mobile-passed",
+  "tests": "scoped-empty-saved-list-layout-1280-820-390-320-design-tokens-passed",
   "verification": {
-    "baseRelease": "2026-10-10T06-03-30-872Z-56d898",
+    "baseRelease": "2026-10-10T06-28-27-232Z-ce0735",
     "changedFiles": [
       "admin/index.html",
-      "admin/ai-settings.js",
-      "admin/reports.js",
-      "admin/report-ai.js",
+      "index.html",
+      "report.html",
       "reports.css"
     ],
-    "fullSuiteRerun": false
+    "fullSuiteRerun": false,
+    "obfuscatedScripts": "byte-identical to verified base"
   },
   "obfuscator": "5.8.1",
   "files": [
@@ -42,7 +42,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "5c3eea942ee953fcd00ce8f25d28f20a255bb4d5483511ddd8d921d17ec20188"
+      "sha256": "fb0baf2435217f73b31793e373a5e545b0177841f82d70d939413cdf4ca3e1c2"
     },
     {
       "path": "admin/login.html",
@@ -326,7 +326,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "e47485f0b03672b80f70022e133127bc5359d55054c737fad11d100fdc6a7693"
+      "sha256": "ded684616d19b8519da9baf07a15dd4a8715eabcc675cff998d066ae1c0bc921"
     },
     {
       "path": "journey.css",
@@ -378,11 +378,11 @@
     },
     {
       "path": "report.html",
-      "sha256": "114ab776f96243aeac827f88114e32804658cb84dd2a133d4d50c85ce05464a9"
+      "sha256": "798375ce9f2d313c3953065e27dae977e699d62b94e24fd05dc75257fc77b082"
     },
     {
       "path": "reports.css",
-      "sha256": "cd860eeb89697880b549c625e0a25153606851c6431f421567d8dfd77f6b2e04"
+      "sha256": "5904c62b703e88920e154e3ae8fff4b89d84cef4c1589c4084e6b2e34478cfd1"
     },
     {
       "path": "response-journey.css",
