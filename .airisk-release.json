@@ -1,15 +1,17 @@
 {
-  "id": "2026-10-10T06-03-30-872Z-56d898",
+  "id": "2026-10-10T06-28-27-232Z-ce0735",
   "environment": "test",
   "verified": true,
-  "tests": "scoped-weekly-collection-passed",
+  "tests": "scoped-report-ai-sql-provider-admin-reader-mobile-passed",
   "verification": {
-    "baseRelease": "2026-10-10T05-46-59-722Z-5d4953",
+    "baseRelease": "2026-10-10T06-03-30-872Z-56d898",
     "changedFiles": [
-      "admin/weekly.html",
-      "admin/weekly.js"
+      "admin/index.html",
+      "admin/ai-settings.js",
+      "admin/reports.js",
+      "admin/report-ai.js",
+      "reports.css"
     ],
-    "scope": "Incomplete week blocked without invocation; KST Monday rollover; HTTP errors; draft preservation; mobile layout",
     "fullSuiteRerun": false
   },
   "obfuscator": "5.8.1",
@@ -32,7 +34,7 @@
     },
     {
       "path": "admin/ai-settings.js",
-      "sha256": "8425a35862f5f7e8a8b9b3793fee35764d4fd2da56109e71ed06dbf5b1a3a0c0"
+      "sha256": "7ded7d753eb6a5e8a79020b3e46a3f459d9f5f13d527ce995271f61c0ad5f41b"
     },
     {
       "path": "admin/editor.js",
@@ -40,7 +42,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "a7d22d047868fa03eb34c50d6e0685b7558b638384ae78edcbb0b6c1526552ea"
+      "sha256": "5c3eea942ee953fcd00ce8f25d28f20a255bb4d5483511ddd8d921d17ec20188"
     },
     {
       "path": "admin/login.html",
@@ -55,8 +57,12 @@
       "sha256": "30a45d726e4e0afc65af5efb50897cf6c5117eac85fb72bf1ce214a6dc69c2f8"
     },
     {
+      "path": "admin/report-ai.js",
+      "sha256": "2ed4ee69e2acdccdf13162607a72357dbbca1d04f97cc0be7bc8e60a559ca5ce"
+    },
+    {
       "path": "admin/reports.js",
-      "sha256": "d9731772d814b5f324b87a06256a09c8f07e2ef3213207d1ea5acee6a7478e36"
+      "sha256": "80ee2d115fef7b1550619ab5170d34145426ff941b47bda0fb9ea1b04356b598"
     },
     {
       "path": "admin/style.css",
@@ -72,7 +78,7 @@
     },
     {
       "path": "admin/weekly.html",
-      "sha256": "2dd0ea53ce8c41373c1f5b710ffdb1c4b4490e1fcc0318779432ecb8abfaeac4"
+      "sha256": "bd0b919f23f499861bf8bf1075e397011ffa728b421f2305919c4133959bb98d"
     },
     {
       "path": "admin/weekly.js",
@@ -320,7 +326,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "9d25142e199a2cef49b9d4d48325f3efac83e0233057544369627e45da794c72"
+      "sha256": "e47485f0b03672b80f70022e133127bc5359d55054c737fad11d100fdc6a7693"
     },
     {
       "path": "journey.css",
@@ -372,11 +378,11 @@
     },
     {
       "path": "report.html",
-      "sha256": "7f75f22de7cf3e3c7d7b20d301006279809b89cabd91b046f96117b608cf888e"
+      "sha256": "114ab776f96243aeac827f88114e32804658cb84dd2a133d4d50c85ce05464a9"
     },
     {
       "path": "reports.css",
-      "sha256": "53f331976457a7a8ae6a5ad55bd846da235287111728bd9af99b8354f50f1a35"
+      "sha256": "cd860eeb89697880b549c625e0a25153606851c6431f421567d8dfd77f6b2e04"
     },
     {
       "path": "response-journey.css",
