@@ -1,15 +1,14 @@
 {
-  "id": "2026-10-10T08-17-27-813Z-0ec023",
+  "id": "2026-10-10T08-32-14-048Z-44d3be",
   "environment": "test",
   "verified": true,
-  "tests": "scoped-new-report-journeys-picker-and-server-scope-passed",
+  "tests": "scoped-persistent-workspace-journeys-and-atomic-storage-passed",
   "verification": {
-    "baseRelease": "2026-10-10T08-07-38-425Z-c6e2c6",
+    "baseRelease": "2026-10-10T08-17-27-813Z-0ec023",
     "changedFiles": [
       "admin/index.html",
       "admin/report-ai.js",
-      "admin/reports.js",
-      "index.html"
+      "admin/reports.js"
     ],
     "fullSuiteRerun": false
   },
@@ -41,7 +40,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "f08733eb8daf460c8b4fd83164f3e1f8c17b53eb518baafa20c5cfabe9bbda1e"
+      "sha256": "0ad2841df9f5861cfbe5dd3891fcf2e107b0cfa91a6c2e19cc60ceeafd6140ef"
     },
     {
       "path": "admin/login.html",
@@ -57,11 +56,11 @@
     },
     {
       "path": "admin/report-ai.js",
-      "sha256": "38578a8c7774789a826e1f37fd401b95e4a68c78d844bbdff7dd75be89664a30"
+      "sha256": "40e6cf6b949e1f7ca1f90abbbe6f29e6f7daf08f7aee74fccd546ab21eae03a0"
     },
     {
       "path": "admin/reports.js",
-      "sha256": "4d51d82b0a6ec3a88a6cd15656e1038e6c28f448563fcd9a2fbc61378e4f9492"
+      "sha256": "8337aa547813045fe260c2b1ade13bb767f4672cc20672fdd0cec72ef026c800"
     },
     {
       "path": "admin/style.css",
