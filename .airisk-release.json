@@ -1,18 +1,16 @@
 {
-  "id": "2026-10-10T07-50-43-029Z-ad3069",
+  "id": "2026-10-10T08-07-38-425Z-c6e2c6",
   "environment": "test",
   "verified": true,
-  "tests": "scoped-national-sources-report-ui-periods-and-design-tokens-passed",
+  "tests": "scoped-evidence-picker-periods-and-design-tokens-passed",
   "verification": {
-    "baseRelease": "2026-10-10T07-20-29-592Z-f4e619",
+    "baseRelease": "2026-10-10T07-50-43-029Z-ad3069",
     "changedFiles": [
       "admin/index.html",
       "admin/report-ai.js",
-      "admin/reports.js",
       "index.html",
       "report.html",
-      "reports.css",
-      "report-countries.js"
+      "reports.css"
     ],
     "fullSuiteRerun": false
   },
@@ -44,7 +42,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "88a9cc59305884ff364a02a176d1bdf850d5f2e6261df1d8a294c5e9db9c590f"
+      "sha256": "430ba3b8d7813bf146931d06dc44632ba1d7cd3ed2969a4a23483874551196e5"
     },
     {
       "path": "admin/login.html",
@@ -60,7 +58,7 @@
     },
     {
       "path": "admin/report-ai.js",
-      "sha256": "47791f3266dcd5e153333f1c7a4cfabb1fb7bfdcbd80eeef7401d5e490c97051"
+      "sha256": "38b7f31237b1ca8377a94a104f1e4dd5ef81e5428e019768109f3555dc34b428"
     },
     {
       "path": "admin/reports.js",
@@ -328,7 +326,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "1ff15ceebe043e8b9faeacb5a60fa1020db83ad29a5a4ea8240e395d02d8fe41"
+      "sha256": "4764dd73cbc96eb5676621197a21ec0766f6e8a62a9a0dfe08bde6bb1a1c6565"
     },
     {
       "path": "journey.css",
@@ -380,11 +378,11 @@
     },
     {
       "path": "report.html",
-      "sha256": "7f56ef01fbc09967ce78068c12b9c15f7374bf704b220c061c9b77edbf70cec5"
+      "sha256": "43fefd8d4f1518b30f96a23ff4bbfb80df494ecf718dc89ab8f12dfe4c4f154c"
     },
     {
       "path": "reports.css",
-      "sha256": "36eccce22c2fd2886b978eda530cecdf8a7698d740e9ee3b2939915cde5499d4"
+      "sha256": "63c8ba7ada2d35eae69a287edaf9266921d7525ae6f6a1f50f815ffb393243d8"
     },
     {
       "path": "response-journey.css",
