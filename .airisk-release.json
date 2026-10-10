@@ -1,18 +1,17 @@
 {
-  "id": "2026-10-10T06-42-57-309Z-b01e7f",
+  "id": "2026-10-10T06-53-33-581Z-032ff6",
   "environment": "test",
   "verified": true,
-  "tests": "scoped-empty-saved-list-layout-1280-820-390-320-design-tokens-passed",
+  "tests": "scoped-weekly-report-period-ui-year-boundary-custom-edit-save-source-query-mobile-passed",
   "verification": {
-    "baseRelease": "2026-10-10T06-28-27-232Z-ce0735",
+    "baseRelease": "2026-10-10T06-42-57-309Z-b01e7f",
     "changedFiles": [
       "admin/index.html",
-      "index.html",
-      "report.html",
-      "reports.css"
+      "admin/reports.js",
+      "admin/weekly.html",
+      "admin/weekly.js"
     ],
-    "fullSuiteRerun": false,
-    "obfuscatedScripts": "byte-identical to verified base"
+    "fullSuiteRerun": false
   },
   "obfuscator": "5.8.1",
   "files": [
@@ -42,7 +41,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "fb0baf2435217f73b31793e373a5e545b0177841f82d70d939413cdf4ca3e1c2"
+      "sha256": "16d6fc84a63b42da00965fd45430cd516f13a47c9e98070d654ae402370ac2ff"
     },
     {
       "path": "admin/login.html",
@@ -62,7 +61,7 @@
     },
     {
       "path": "admin/reports.js",
-      "sha256": "80ee2d115fef7b1550619ab5170d34145426ff941b47bda0fb9ea1b04356b598"
+      "sha256": "8573b68ceb6ffc53843e9ecfb3527180c73422e1bd40b12c0e363cd79dfef5d1"
     },
     {
       "path": "admin/style.css",
@@ -78,11 +77,11 @@
     },
     {
       "path": "admin/weekly.html",
-      "sha256": "bd0b919f23f499861bf8bf1075e397011ffa728b421f2305919c4133959bb98d"
+      "sha256": "447f10392086fbd9a51a70eed89fbf2414ba573bd90e6295016cdd49a41f4505"
     },
     {
       "path": "admin/weekly.js",
-      "sha256": "074ba76517c9d2b69c413cb20cc5c003d110fdcb21fb8389b69b76f9afa9faf7"
+      "sha256": "17cec47c104f10464c5d65d53c3bce370ee793bbe414d03ee43417df9345367d"
     },
     {
       "path": "admin/workspace-tabs.js",
