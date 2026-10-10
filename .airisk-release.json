@@ -1,15 +1,13 @@
 {
-  "id": "2026-10-10T10-02-10-677Z-8b61fc",
+  "id": "2026-10-10T10-11-23-586Z-51e4c8",
   "environment": "test",
   "verified": true,
-  "tests": "Admin UI including navigation/session reuse, permission denial and logout passed; unchanged assets inherited",
+  "tests": "Manual outline UX checks passed; unchanged verified assets retained",
   "verification": {
-    "base": "2026-10-10T09-47-47-550Z-5f8adb",
+    "base": "2026-10-10T10-02-10-677Z-8b61fc",
     "changedFiles": [
-      "admin/login.html",
-      "admin/login.js",
-      "gap-analyzer.js",
-      "index.html"
+      "admin/index.html",
+      "admin/reports.js"
     ]
   },
   "obfuscator": "5.8.1",
@@ -40,7 +38,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "35e688857d3b14e7af4b5db9f1aee5197f5425e950a6de464d0d57046b104e73"
+      "sha256": "b865d06819d26fc3abc2b8b1df3c5a315656c39834fcf2d4d753bde8607036f0"
     },
     {
       "path": "admin/login.html",
@@ -60,7 +58,7 @@
     },
     {
       "path": "admin/reports.js",
-      "sha256": "923935f735a03d9b78d213c24474ac1726f14d4c1c0d36d3596a56948b8ff71b"
+      "sha256": "815e529b9ab47df287b160c2e6007a0228b3e667522c8da119c0c6a6831bfdc1"
     },
     {
       "path": "admin/style.css",
