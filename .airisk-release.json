@@ -1,16 +1,18 @@
 {
-  "id": "2026-10-10T07-20-29-592Z-f4e619",
+  "id": "2026-10-10T07-50-43-029Z-ad3069",
   "environment": "test",
   "verified": true,
-  "tests": "scoped-evidence-and-report-ui-design-tokens-passed",
+  "tests": "scoped-national-sources-report-ui-periods-and-design-tokens-passed",
   "verification": {
-    "baseRelease": "2026-10-10T07-00-23-380Z-0d2631",
+    "baseRelease": "2026-10-10T07-20-29-592Z-f4e619",
     "changedFiles": [
       "admin/index.html",
       "admin/report-ai.js",
+      "admin/reports.js",
       "index.html",
       "report.html",
-      "reports.css"
+      "reports.css",
+      "report-countries.js"
     ],
     "fullSuiteRerun": false
   },
@@ -42,7 +44,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "a182a39b4e752b7a288b6494f64ab7b380d50cd1e7785f93f9e8612577932c1d"
+      "sha256": "88a9cc59305884ff364a02a176d1bdf850d5f2e6261df1d8a294c5e9db9c590f"
     },
     {
       "path": "admin/login.html",
@@ -58,11 +60,11 @@
     },
     {
       "path": "admin/report-ai.js",
-      "sha256": "8585bfcc78186025fcb029b6e3a88732aadc33bd530ebeb7dedce15ebe53b1fa"
+      "sha256": "47791f3266dcd5e153333f1c7a4cfabb1fb7bfdcbd80eeef7401d5e490c97051"
     },
     {
       "path": "admin/reports.js",
-      "sha256": "8573b68ceb6ffc53843e9ecfb3527180c73422e1bd40b12c0e363cd79dfef5d1"
+      "sha256": "35ea48f9b53ae8e23b7764098661af2649b59d3dea6a660e0b313246aefc0344"
     },
     {
       "path": "admin/style.css",
@@ -326,7 +328,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "1f79698bfe7f6d111e87050073815323af33f25d1f345570e9879a1d4be153df"
+      "sha256": "1ff15ceebe043e8b9faeacb5a60fa1020db83ad29a5a4ea8240e395d02d8fe41"
     },
     {
       "path": "journey.css",
@@ -378,11 +380,11 @@
     },
     {
       "path": "report.html",
-      "sha256": "3f23577b4593bdec6463d5faad6ab8d2a2d1129e90d6f2868fcc62b9c360b7a0"
+      "sha256": "7f56ef01fbc09967ce78068c12b9c15f7374bf704b220c061c9b77edbf70cec5"
     },
     {
       "path": "reports.css",
-      "sha256": "2b30eeeb1acff73cb6e503abf9bde237c9865b1df165b2595d8ab8b40ca303f1"
+      "sha256": "36eccce22c2fd2886b978eda530cecdf8a7698d740e9ee3b2939915cde5499d4"
     },
     {
       "path": "response-journey.css",
@@ -1827,6 +1829,10 @@
     {
       "path": "workspace-layout.css",
       "sha256": "d9eb5a8922f57e48e1f18729658bfc417d851e5dc1cf6b572ea4c45d036388f4"
+    },
+    {
+      "path": "report-countries.js",
+      "sha256": "1fb9ab42c488b82c4e95bb05f921155f7d7e801a860667ff59471da45a79a713"
     }
   ]
 }
