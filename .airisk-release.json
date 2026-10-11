@@ -1,15 +1,8 @@
 {
-  "id": "2026-10-10T10-11-23-586Z-51e4c8",
+  "id": "2026-10-11T05-19-54-042Z-b5d1bf",
   "environment": "test",
   "verified": true,
-  "tests": "Manual outline UX checks passed; unchanged verified assets retained",
-  "verification": {
-    "base": "2026-10-10T10-02-10-677Z-8b61fc",
-    "changedFiles": [
-      "admin/index.html",
-      "admin/reports.js"
-    ]
-  },
+  "tests": "passed",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -38,7 +31,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "b865d06819d26fc3abc2b8b1df3c5a315656c39834fcf2d4d753bde8607036f0"
+      "sha256": "40f290536aa533a0fb224b67b3b49901a5c579f0df2f0a2444ded1f658463b00"
     },
     {
       "path": "admin/login.html",
@@ -286,7 +279,7 @@
     },
     {
       "path": "gap-analyzer.js",
-      "sha256": "014c172cd8cca7ad7ccc43fb4689c6ff535ab436dc48e2436c704bad181983c4"
+      "sha256": "2f3209ffebceaeca51d32bb8da019027782174eb3c62fec7d68ad19045a1173f"
     },
     {
       "path": "gap-audience-data.js",
@@ -306,11 +299,11 @@
     },
     {
       "path": "gap-reports.js",
-      "sha256": "b244ed715acac384e38798d30ba1afdb20d81803dc7f78d7f609ef2a362116a3"
+      "sha256": "24e16e0c37fad733d1ea211359088be90c855de41080b12d9f4cf241f95e574a"
     },
     {
       "path": "i18n-en.json",
-      "sha256": "d70ef841b0401665455feff08a65a1a920f6b74d55c275906dcb372499b81144"
+      "sha256": "4a0ae1a436ae94193464a42e53965da9b3871519a5810f7051d25a459941dc50"
     },
     {
       "path": "i18n.css",
@@ -322,7 +315,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "fc3d9c6166b4b9db8758385c91e3fde61da645ef7cddae0f64c7934a2acd8eba"
+      "sha256": "58660d4a5d27a104d2c9ef2f478a503aae3617496bb1297360fd83e69abdebdb"
     },
     {
       "path": "journey.css",
@@ -398,7 +391,7 @@
     },
     {
       "path": "seo.json",
-      "sha256": "9a028d8bbc26fb1c14c3a0aba2433450dbb42a51c404591d166e2758f268ed4e"
+      "sha256": "d7c1d1bf5e2815f072f85411ad3a59c1e1cfdbd3ac4a7585ead15285bcc6b58d"
     },
     {
       "path": "style.css",
@@ -1810,7 +1803,7 @@
     },
     {
       "path": "weekly-briefing.js",
-      "sha256": "a2e702f737afcd1acdc43157bcab861f6b731e3bbfd82611b2615ce872c346bc"
+      "sha256": "ba7f9eecacbf8feb8f891f9fec0b6424c22c48275d4d3fd82716e03adf604650"
     },
     {
       "path": "weekly-model.js",
