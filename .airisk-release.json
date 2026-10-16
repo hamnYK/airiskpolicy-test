@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-12T12-22-23-570Z-51de44",
+  "id": "2026-10-16T03-13-29-007Z-63370f",
   "environment": "test",
   "verified": true,
   "tests": "passed",
@@ -27,11 +27,11 @@
     },
     {
       "path": "admin/editor.js",
-      "sha256": "c710503fe999ccbfb7b6f76cb470e707db82c187ad4fca7f8ca3e0902ccbdc86"
+      "sha256": "6cd0794fdf43a7981b38d552e0c784c4789bd74796fcfc1ab547c13887a3cb96"
     },
     {
       "path": "admin/index.html",
-      "sha256": "4cd56f092f5afc77ec6962eb17fef3a041858b97c467b5f8ac2b41adace84518"
+      "sha256": "0d0585ed4fbb35fe450ff297d2ecb6151bb5872becc6cbe94b6d913f7f2cf852"
     },
     {
       "path": "admin/login.html",
@@ -67,15 +67,15 @@
     },
     {
       "path": "admin/weekly.html",
-      "sha256": "099280b0b564b86b778bf289d6e6e1e256c3e8588b41019a62da9f3a4788a74f"
+      "sha256": "35a28b4b83cebc33d031d8d19807bf55108503c97a0ceb3658d9ea86c07384f6"
     },
     {
       "path": "admin/weekly.js",
-      "sha256": "17cec47c104f10464c5d65d53c3bce370ee793bbe414d03ee43417df9345367d"
+      "sha256": "97f2ab1bc66163991b6c974006277b433f5c00694741886080ff9ad9f20dcba7"
     },
     {
       "path": "admin/workspace-tabs.js",
-      "sha256": "c898543c533c072252e9f4dc758d721f39601f81d89822ac512e57cf389c9c84"
+      "sha256": "3fac3d2240ee545de277e9f9897d9d9f4a281b2991b3943f56b7c1fcfdd1a2fc"
     },
     {
       "path": "aim-explorer.js",
@@ -315,7 +315,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "162c6b35b697bb19530f194692ebaa015fe4a93d6d3b0a3dab02e7a0c23428a5"
+      "sha256": "974c50161ac4d3036d4f92483e1047ec1d4e40124a296dd0c90724bed6d5a75d"
     },
     {
       "path": "journey.css",
@@ -327,7 +327,7 @@
     },
     {
       "path": "ontology-client.js",
-      "sha256": "1557ec39f7c2aa74ba645cfd616e4e389fbd82b81476ce2b73038c92ccf63e10"
+      "sha256": "e4d6a01d08c44c25d0236181750cff02a6fd2290c135f8ffcd32e8cfbcafa03f"
     },
     {
       "path": "ontology-config.json",
