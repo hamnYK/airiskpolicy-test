@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-23T03-13-15-042Z-bd5ffa",
+  "id": "2026-10-29T01-07-11-272Z-97c412",
   "environment": "test",
   "verified": true,
   "tests": "passed",
@@ -31,7 +31,7 @@
     },
     {
       "path": "admin/index.html",
-      "sha256": "7af8ce2e7cf2683541cd155ceb2fe7cd9609a4e1a982aa2d35c6abfe8a60d875"
+      "sha256": "f69cae67a186088d846255d1b1cfad013d51974b802f32c8178f89a19d6f599a"
     },
     {
       "path": "admin/login.html",
@@ -90,20 +90,12 @@
       "sha256": "c32348577fae5a8f8f234b5e6dda767b0f189a955dd7d02baf148fb00ee1b212"
     },
     {
-      "path": "assets/audience-ontologies/report-pilot-requests.json",
-      "sha256": "e606c25244960c8dabb93a947448b34742aea989f5550e804736f7ebd4168599"
-    },
-    {
       "path": "assets/audience-ontologies/report-pilot.md",
       "sha256": "989f6d714c4853f299f870235bdc4dba74e13245bdb86cb1c653680981d80caf"
     },
     {
       "path": "assets/audience-ontologies/review.json",
-      "sha256": "df70cf0e5d3d4b4169ba8e14a9e98679e09d800e8343d89d19b02b169370ab8c"
-    },
-    {
-      "path": "assets/audience-ontologies/w3c/enterprise-assurance-report.nq",
-      "sha256": "1db51742367691ee7c9855c099c3e7380e292e1dc5bb14fcd1b00678a0a2df7f"
+      "sha256": "6ab8c51781cf7595b3d00617964a9a9dce94b2596c7cfd97b3391c6683e9c562"
     },
     {
       "path": "assets/audience-ontologies/w3c/enterprise-assurance-sample-0.jsonld",
@@ -122,10 +114,6 @@
       "sha256": "198fcac2d58e1f46148e5f676a12d4d9dcf974984c3c13ee1261381ff239cc87"
     },
     {
-      "path": "assets/audience-ontologies/w3c/policy-research-report.nq",
-      "sha256": "1db51742367691ee7c9855c099c3e7380e292e1dc5bb14fcd1b00678a0a2df7f"
-    },
-    {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-0.jsonld",
       "sha256": "d84bc7e654c0b8db54eedc5f76abe5246513961706923c85baf66f3ba9862fde"
     },
@@ -140,18 +128,6 @@
     {
       "path": "assets/audience-ontologies/w3c/policy-research-sample-3.jsonld",
       "sha256": "672152261942f671bcc89037478c6b241f8e2fba79345baa261c0c173f35d279"
-    },
-    {
-      "path": "assets/audience-ontologies/w3c/shapes.ttl",
-      "sha256": "63583a8e9e88125dd61a574e9c41dfa81399e58657995d856883cdfe170bcfc7"
-    },
-    {
-      "path": "assets/audience-ontologies/w3c/validation.json",
-      "sha256": "c70fb7eab15b3d3a2270d4bbf72dec307bed22f7d032effbc8646dd8233d7b8f"
-    },
-    {
-      "path": "assets/audience-ontologies/w3c/vocabulary.ttl",
-      "sha256": "22a854a209cded1bda6547ddf0aaa3eab7c98b915b6d501dbf08b6d8a7e1d63c"
     },
     {
       "path": "assets/countries.geojson",
@@ -263,11 +239,11 @@
     },
     {
       "path": "audience-ontology.html",
-      "sha256": "c74f051534fbff2615b390151509d750bc39362f537d4b63e39ffaab03557ae0"
+      "sha256": "d9255f196ba9cbbf9cc49fe2c6c172608934cd11e01d8f8a0b0da0d469c15773"
     },
     {
       "path": "audience-ontology.js",
-      "sha256": "c547222789791129f75b012a07ca7dca71a766b1c8e33c22f19974130f5f635d"
+      "sha256": "68b16f2a5d96604b7a39a80c91a0afc9afffb2ee9bb06006620023b57b199f90"
     },
     {
       "path": "community.css",
@@ -319,7 +295,7 @@
     },
     {
       "path": "gap-analyzer.js",
-      "sha256": "2f3209ffebceaeca51d32bb8da019027782174eb3c62fec7d68ad19045a1173f"
+      "sha256": "d1b1cef77aebc4a539d1d3bf30471ec753af7aa9e903c461f09df66188fb66db"
     },
     {
       "path": "gap-audience-data.js",
@@ -335,7 +311,7 @@
     },
     {
       "path": "gap-engine.js",
-      "sha256": "27c63c56bf07100ac94a567f6655120badd15728b301c6a3a56936ba830c6c63"
+      "sha256": "492f9bf8a2b1ed2398faea024a611fdae6a3f9a6909306e85f08d0b14a7639d6"
     },
     {
       "path": "gap-reports.js",
@@ -355,7 +331,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "066e09dea094e9800255eb8639757f346e0db9e1812bebe82dfcce217648f9a5"
+      "sha256": "5eb9b9002f75a17218609273b6fafa7351b2635a6433aeb4a920f3cb43a5a2b2"
     },
     {
       "path": "journey.css",
